@@ -1,3 +1,5 @@
-A revamped Discord, inspired by the Discord's promotional materials.
+**A revamped Discord, inspired by the Discord's promotional materials**
 
-Maintainted by RuukuLada.
+Maintained by RuukuLada
+
+![Screenshot](/screenshot.png?raw=true "Screenshot")
