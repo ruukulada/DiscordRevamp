@@ -1,0 +1,73 @@
+/**
+ * @name Discord Revamp
+ * @description A revamped Discord, inspired by the Discord's promotional materials.
+ * @version 1.0
+ * @author ruukulada
+**/
+.theme-dark,
+.theme-light,
+:root {
+  --activity-card-background: var(--background-primary) !important;
+  --background: var(--background-primary) !important;
+  --background-accent: #413f66 !important;
+  --background-extra: var(--background-primary) !important;
+  --background-floating: #15141e !important;
+  --background-modifier-accent: var(--background-color) !important;
+  --background-modifier-active: rgba(255, 255, 255, 0.03) !important;
+  --background-modifier-hover: rgba(255, 255, 255, 0.01) !important;
+  --background-modifier-selected: rgba(255, 255, 255, 0.04) !important;
+  --background-primary: #292841 !important;
+  --background-secondary-alt: #191827 !important;
+  --background-secondary: #242338 !important;
+  --background-tertiary: #1c1b29 !important;
+  --channels-default: #9f9f9f !important;
+  --channeltextarea-background: var(--background-accent) !important;
+  --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+  --deprecated-card-editable-bg: rgba(0, 0, 0, 0.1) !important;
+  --deprecated-text-input-bg: var(--background-tertiary) !important;
+  --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+  --deprecated-text-input-border: var(--background-floating) !important;
+  --focus-primary: var(--background-primary) !important;
+  --header-primary: white !important;
+  --header-secondary: #c9c9c9 !important;
+  --interactive-active: #fff !important;
+  --interactive-hover: #dcddde !important;
+  --interactive-muted: #747474 !important;
+  --interactive-normal: #c8c8c8 !important;
+  --scrollbar-auto-thumb: var(--background-secondary) !important;
+  --scrollbar-auto-track: transparent !important;
+  --scrollbar-thin-thumb: var(--background-tertiary) !important;
+  --scrollbar-thin-track: transparent !important;
+  --settings-alt-focused: var(--interactive-normal) !important;
+  --settings-guild-delete: #f04747 !important;
+  --settings-guild-premium: var(--interactive-normal) !important;
+  --settings-hypesquad: var(--interactive-normal) !important;
+  --settings-icon-color: var(--interactive-normal) !important;
+  --settings-logout: #f04747 !important;
+  --settings-subscriptions: var(--interactive-normal) !important;
+  --text-muted: #b6b6b6 !important;
+  --text-normal: #fbfbfb !important;
+  --toast-background: var(--background-primary) !important;
+  --toast-border: var(--background-tertiary) !important;
+  --toast-box-shadow: rgba(0, 0, 0, 0.2) !important;
+  --toast-contents: var(--background-secondary) !important;
+  --toast-header: var(--background-tertiary) !important;
+}
+
+/* hide groomer garbage */
+a[data-list-item-id$="___nitro"]
+  { display: none; } /* nitro page */
+a[data-list-item-id$="___shop"]
+  { display: none; } /* shop page */
+a[href="https://support.discord.com"]
+  { display: none; } /* help button */
+button[aria-label="Send a gift"]
+  { display: none; } /* gift nitro button */
+div.themed_b957e8.item__48dda.item_e4ca95:nth-of-type(4)
+  { display: none; } /* suggested friends */
+.scrollerBase_dc3aa9.none__51a8f.scroller__3d071 > div.listItem_fa7b36 > .listItemWrapper__1f93b
+  { display: none; } /* public servers */
+.nowPlayingColumn_f5023f
+  { display: none; } /* active now */
+.tutorialContainer_dc6fde > .listItem_fa7b36 > .listItemWrapper__1f93b
+  { display: none; } /* create server button */
