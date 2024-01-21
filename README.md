@@ -1,3 +1,9 @@
-A revamped Discord, inspired by the Discord's promotional materials.
+A revamped Discord, inspired by the Discord's promotional materials
 
-Maintainted by RuukuLada.
+```
+https://ruukulada.github.io/DiscordRevamp/theme.css
+```
+
+![Screenshot](/screenshot.png?raw=true "Screenshot")
+
+<sup>Maintained by RuukuLada</sup>
