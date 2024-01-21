@@ -1,5 +1,3 @@
-A revamped theme inspired by the Discord promotional materials
-
 ```
 https://ruukulada.github.io/DiscordRevamp/theme.css
 ```
