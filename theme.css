@@ -30,6 +30,7 @@
   --focus-primary: var(--background-primary) !important;
   --header-primary: white !important;
   --header-secondary: #c9c9c9 !important;
+  --home-background: var(--background-primary) !important;
   --interactive-active: #fff !important;
   --interactive-hover: #dcddde !important;
   --interactive-muted: #747474 !important;
