@@ -1,4 +1,4 @@
-A revamped Discord, inspired by the Discord's promotional materials
+A revamped theme inspired by the Discord promotional materials
 
 ```
 https://ruukulada.github.io/DiscordRevamp/theme.css
