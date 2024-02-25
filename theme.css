@@ -66,9 +66,9 @@ button[aria-label="Send a gift"]
   { display: none; } /* gift nitro button */
 div.themed_b957e8.item__48dda.item_e4ca95:nth-of-type(4)
   { display: none; } /* suggested friends */
-.scrollerBase_dc3aa9.none__51a8f.scroller__3d071 > div.listItem_fa7b36 > .listItemWrapper__1f93b
-  { display: none; } /* public servers */
 .nowPlayingColumn_f5023f
   { display: none; } /* active now */
-.tutorialContainer_dc6fde > .listItem_fa7b36 > .listItemWrapper__1f93b
+.scrollerBase__2b744.none__3919e.scroller__3d071 > div.listItem_fa7b36
+  { display: none; } /* public servers */
+.tutorialContainer_dc6fde
   { display: none; } /* create server button */
