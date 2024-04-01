@@ -64,11 +64,9 @@ a[href="https://support.discord.com"]
   { display: none; } /* help button */
 button[aria-label="Send a gift"]
   { display: none; } /* gift nitro button */
-div.themed_b957e8.item__48dda.item_e4ca95:nth-of-type(4)
+div[aria-label="Add a Server"]
+  { display: none; } /* add server button */
+div[aria-label="Explore Discoverable Servers"]
+  { display: none; } /* public servers button */
+div.item_e4ca95:nth-of-type(4)
   { display: none; } /* suggested friends */
-.nowPlayingColumn_f5023f
-  { display: none; } /* active now */
-.scrollerBase__2b744.none__3919e.scroller__3d071 > div.listItem_fa7b36
-  { display: none; } /* public servers */
-.tutorialContainer_dc6fde
-  { display: none; } /* create server button */
