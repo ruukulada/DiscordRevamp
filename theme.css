@@ -64,9 +64,9 @@ a[href="https://support.discord.com"]
   { display: none; } /* help button */
 button[aria-label="Send a gift"]
   { display: none; } /* gift nitro button */
-div[aria-label="Add a Server"]
+div.listItem__48528:has(div[aria-label="Add a Server"])
   { display: none; } /* add server button */
-div[aria-label="Explore Discoverable Servers"]
+div.listItem__48528:has(div[aria-label="Explore Discoverable Servers"])
   { display: none; } /* public servers button */
 div.item_e4ca95:nth-of-type(4)
   { display: none; } /* suggested friends */
