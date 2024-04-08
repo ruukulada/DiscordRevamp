@@ -70,3 +70,5 @@ div.listItem__48528:has(div[aria-label="Explore Discoverable Servers"])
   { display: none; } /* public servers button */
 div.item_e4ca95:nth-of-type(4)
   { display: none; } /* suggested friends */
+div.sidebarRegion__36437
+  { flex: 1; } /* settings alignment */
