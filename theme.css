@@ -1,56 +1,26 @@
 /**
  * @name Discord Revamp
- * @description A revamped Discord, inspired by the Discord's promotional materials.
+ * @description A revamped theme inspired by the Discord promotional materials
  * @version 1.0
  * @author ruukulada
 **/
 .theme-dark,
 .theme-light,
 :root {
-  --activity-card-background: var(--background-primary);
-  --background: var(--background-primary);
-  --background-accent: #413f66;
-  --background-extra: var(--background-primary);
-  --background-floating: #15141e;
+  --primary-500: #4a4875;
+  --primary-530: #413f66;
+  --primary-560: #353454;
+  --primary-600: #292841;
+  --primary-630: #242338;
+  --primary-660: #191827;
+  --primary-700: #1c1b29;
+  --primary-800: #15141e;
   --background-modifier-accent: var(--background-color);
-  --background-modifier-active: #ffffff07;
-  --background-modifier-hover: #ffffff02;
-  --background-modifier-selected: #ffffff09;
-  --background-primary: #292841;
-  --background-secondary-alt: #191827;
-  --background-secondary: #242338;
-  --background-tertiary: #1c1b29;
-  --channels-default: #ffffff9f;
-  --channeltextarea-background: var(--background-accent);
-  --channel-text-area-placeholder: #ffffff50;
-  --focus-primary: var(--background-primary);
-  --header-primary: #ffffff;
-  --header-secondary: var(--interactive-normal);
-  --home-background: var(--background-primary);
-  --input-background: var(--background-tertiary);
-  --interactive-active: var(--header-primary);
-  --interactive-hover: #ffffffdd;
-  --interactive-muted: #ffffff74;
-  --interactive-normal: #ffffffc8;
-  --modal-background: var(--background-primary);
-  --scrollbar-auto-thumb: var(--background-secondary);
-  --scrollbar-auto-track: transparent;
-  --scrollbar-thin-thumb: var(--background-tertiary);
-  --scrollbar-thin-track: transparent;
-  --settings-alt-focused: var(--interactive-normal);
-  --settings-guild-delete: var(--settings-logout);
-  --settings-guild-premium: var(--interactive-normal);
-  --settings-hypesquad: var(--interactive-normal);
-  --settings-icon-color: var(--interactive-normal);
-  --settings-logout: #f04747;
-  --settings-subscriptions: var(--interactive-normal);
-  --text-muted: #ffffffb6;
-  --text-normal: #fffffffb;
-  --toast-background: var(--background-primary);
-  --toast-border: var(--background-tertiary);
-  --toast-box-shadow: #00000032;
-  --toast-contents: var(--background-secondary);
-  --toast-header: var(--background-tertiary);
+  --background-modifier-active: #ffffff09;
+  --background-modifier-hover: #ffffff03;
+  --background-modifier-selected: #ffffff0c;
+  --search-popout-option-fade: transparent;
+  --search-popout-option-fade-hover: transparent;
 }
 
 /* hide groomer garbage */
