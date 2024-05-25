@@ -33,6 +33,10 @@ a[href="https://support.discord.com"]
   { display: none; } /* help button */
 button[aria-label="Send a gift"]
   { display: none; } /* gift nitro button */
+button[aria-label="Start an Activity"]
+  { display: none; } /* activity action */
+div.buttonContainer_c84998
+  { display: none; } /* activity call ui */
 div.listItem__48528:has(div[aria-label="Add a Server"])
   { display: none; } /* add server button */
 div.listItem__48528:has(div[aria-label="Explore Discoverable Servers"])
