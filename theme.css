@@ -33,15 +33,15 @@ a[href="https://support.discord.com"]
   { display: none; } /* help button */
 button[aria-label="Send a gift"]
   { display: none; } /* gift nitro button */
-button[aria-label="Start an Activity"]
-  { display: none; } /* activity action */
 div.buttonContainer_c84998
   { display: none; } /* activity call ui */
+div.item_e4ca95:nth-of-type(4)
+  { display: none; } /* suggested friends */
 div.listItem__48528:has(div[aria-label="Add a Server"])
   { display: none; } /* add server button */
 div.listItem__48528:has(div[aria-label="Explore Discoverable Servers"])
   { display: none; } /* public servers button */
-div.item_e4ca95:nth-of-type(4)
-  { display: none; } /* suggested friends */
+div.voiceEffectsActionBar__3d90f
+  { display: none; } /* voice fx call ui */
 div.sidebarRegion__36437
   { flex: 1; } /* settings alignment */
