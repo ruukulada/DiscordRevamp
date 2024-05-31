@@ -45,5 +45,5 @@ div.sidebarRegion__36437
   { flex: 1; } /* settings alignment */
 div.voiceEffectsActionBar__3d90f
   { display: none; } /* voice fx call ui */
-div.wrapper__6bf2d:has(button[aria-label="Return to App"])
+div.wrapper__6bf2d.poppedOut_db58f7
   { display: none; } /* dupe call ui */
