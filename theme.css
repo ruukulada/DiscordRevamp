@@ -41,7 +41,9 @@ div.listItem__48528:has(div[aria-label="Add a Server"])
   { display: none; } /* add server button */
 div.listItem__48528:has(div[aria-label="Explore Discoverable Servers"])
   { display: none; } /* public servers button */
-div.voiceEffectsActionBar__3d90f
-  { display: none; } /* voice fx call ui */
 div.sidebarRegion__36437
   { flex: 1; } /* settings alignment */
+div.voiceEffectsActionBar__3d90f
+  { display: none; } /* voice fx call ui */
+div.wrapper__6bf2d:has(button[aria-label="Return to App"])
+  { display: none; } /* hide dupe call ui */
