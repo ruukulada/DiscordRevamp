@@ -46,4 +46,4 @@ div.sidebarRegion__36437
 div.voiceEffectsActionBar__3d90f
   { display: none; } /* voice fx call ui */
 div.wrapper__6bf2d:has(button[aria-label="Return to App"])
-  { display: none; } /* hide dupe call ui */
+  { display: none; } /* dupe call ui */
