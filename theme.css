@@ -47,3 +47,11 @@ div.voiceEffectsActionBar__3d90f
   { display: none; } /* voice fx call ui */
 div.wrapper__6bf2d.poppedOut_db58f7
   { display: none; } /* dupe call ui */
+
+/* fix inbox masks */
+div.container__908e1
+  { border-radius: 50%; } /* circle icons */
+img.image__9143d
+  { border-radius: 50%; } /* circle avis */
+svg.svg_bb7847 > foreignObject
+  { mask: none; } /* disable mask */
