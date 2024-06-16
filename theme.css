@@ -51,6 +51,8 @@ div.wrapper__6bf2d.poppedOut_db58f7
 /* fix inbox masks */
 div.container__908e1
   { border-radius: 50%; } /* circle icons */
+div.maskBackground_d1b3ad
+  { display: none; } /* disable checks */
 img.image__9143d
   { border-radius: 50%; } /* circle avis */
 svg.svg_bb7847 > foreignObject
