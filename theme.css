@@ -31,11 +31,12 @@
 /* gift nitro button */     button[aria-label="Send a gift"],
 /* activity call ui */      div.buttonContainer_c84998,
 /* suggested friends */     div.item_e4ca95:nth-of-type(4),
-/* add server button */     div[aria-label="Add a Server"],
-/* public servers button */ div[aria-label="Explore Discoverable Servers"],
 /* inbox checks */          div.maskBackground_d1b3ad,
 /* voice fx call ui */      div.voiceEffectsActionBar__3d90f,
 /* dupe call ui */          div.wrapper__6bf2d.poppedOut_db58f7
+/* add server button */     div[aria-label="Add a Server"],
+/* public servers button */ div[aria-label="Explore Discoverable Servers"],
+/* context languages */     div[id="textarea-context-languages"]
   { display: none; }
 /* circle avis */           div.container__908e1,
 /* circle icons */          img.image__9143d
