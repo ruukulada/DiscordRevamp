@@ -43,5 +43,5 @@
   { display: none; }
 /* settings alignment    */ div.sidebarRegion__36437
   { flex: 1; }
-/* disable mask          */ svg.svg_bb7847 > foreignObject
+/* fix inbox mask        */ svg.svg_bb7847 > foreignObject
   { mask-mode: alpha; }
