@@ -24,24 +24,24 @@
   --search-popout-option-fade-hover: transparent;
 }
 
-/* hide groomer garbage  */
-/* nitro page            */ a[data-list-item-id$="___nitro"],
-/* shop page             */ a[data-list-item-id$="___shop"],
-/* help button           */ a[href="https://support.discord.com"],
-/* gift nitro button     */ button[aria-label="Send a gift"],
-/* activity call ui      */ div.buttonContainer_c84998,
-/* suggested friends     */ div.item_e4ca95:nth-of-type(4),
-/* add server button     */ div.listItem__48528:has(div[aria-label="Add a Server"]),
-/* public servers button */ div.listItem__48528:has(div[aria-label="Explore Discoverable Servers"]),
-/* voice fx call ui      */ div.voiceEffectsActionBar__3d90f,
-/* dupe call ui          */ div.wrapper__6bf2d.poppedOut_db58f7,
-/* context languages     */ div[id="textarea-context-languages"],
-/* context spellcheck    */ div[id="textarea-context-spellcheck"],
-/* context submit        */ div[id="textarea-context-submit-button"],
-/* context suggestions   */ div[id="textarea-context-suggestions"],
-/* vesktop spellcheck    */ div[id="textarea-context-vcd-spellcheck-enabled"]
+/* hide groomer garbage */
+/* nitro page           */ a[data-list-item-id$="___nitro"],
+/* shop page            */ a[data-list-item-id$="___shop"],
+/* help button          */ a[href="https://support.discord.com"],
+/* gift nitro button    */ button[aria-label="Send a gift"],
+/* activity call ui     */ div.buttonContainer_c84998,
+/* suggested friends    */ div.item_e4ca95:nth-of-type(4),
+/* add server           */ div.listItem__48528:has(div[aria-label="Add a Server"]),
+/* public servers       */ div.listItem__48528:has(div[aria-label="Explore Discoverable Servers"]),
+/* voice fx call ui     */ div.voiceEffectsActionBar__3d90f,
+/* dupe call ui         */ div.wrapper__6bf2d.poppedOut_db58f7,
+/* context languages    */ div[id="textarea-context-languages"],
+/* context spellcheck   */ div[id="textarea-context-spellcheck"],
+/* context submit       */ div[id="textarea-context-submit-button"],
+/* context suggestions  */ div[id="textarea-context-suggestions"],
+/* vesktop spellcheck   */ div[id="textarea-context-vcd-spellcheck-enabled"]
   { display: none; }
-/* settings alignment    */ div.sidebarRegion__36437
+/* settings alignment   */ div.sidebarRegion__36437
   { flex: 1; }
-/* fix inbox mask        */ svg.svg_bb7847 > foreignObject
+/* fix inbox mask       */ svg.svg_bb7847.mask__8ba21 > foreignObject
   { mask-mode: alpha; }
