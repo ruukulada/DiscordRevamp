@@ -41,10 +41,7 @@
 /* context suggestions   */ div[id="textarea-context-suggestions"],
 /* vesktop spellcheck    */ div[id="textarea-context-vcd-spellcheck-enabled"]
   { display: none; }
-/* circle avis           */ div.container__908e1,
-/* circle icons          */ img.image__9143d
-  { border-radius: 50%; }
 /* settings alignment    */ div.sidebarRegion__36437
   { flex: 1; }
 /* disable mask          */ svg.svg_bb7847 > foreignObject
-  { mask: none; }
+  { mask-mode: alpha; }
