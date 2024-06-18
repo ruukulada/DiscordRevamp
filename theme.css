@@ -17,9 +17,10 @@
   --primary-700: #1c1b29;
   --primary-800: #15141e;
   --background-modifier-accent: var(--background-color);
-  --background-modifier-active: #ffffff09;
-  --background-modifier-hover: #ffffff03;
-  --background-modifier-selected: #ffffff0c;
+  --background-modifier-accent2: var(--background-color);
+  --background-modifier-active: var(--primary-600);
+  --background-modifier-hover: var(--primary-600);
+  --background-modifier-selected: var(--primary-560);
   --search-popout-option-fade: transparent;
   --search-popout-option-fade-hover: transparent;
 }
@@ -43,5 +44,5 @@
   { display: none; }
 /* settings alignment   */ div.sidebarRegion__36437
   { flex: 1; }
-/* fix inbox mask       */ svg.svg_bb7847.mask__8ba21 > foreignObject
+/* fix inbox mask       */ svg.svg_bb7847.mask__8ba21>foreignObject
   { mask-mode: alpha; }
