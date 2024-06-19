@@ -35,7 +35,7 @@
 /* add server           */ div.tutorialContainer_c96c45,
 /* public servers       */ div.listItem_c96c45:has(div[aria-label="Explore Discoverable Servers"]),
 /* voice fx call ui     */ div.voiceEffectsActionBar_d7b7fd,
-/* dupe call ui         */ div.wrapper__6bf2d.poppedOut_db58f7,
+/* dupe call ui         */ div.wrapper_d880dc.poppedOut_d880dc,
 /* context languages    */ div[id="textarea-context-languages"],
 /* context spellcheck   */ div[id="textarea-context-spellcheck"],
 /* context submit       */ div[id="textarea-context-submit-button"],
