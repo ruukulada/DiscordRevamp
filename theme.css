@@ -30,19 +30,19 @@
 /* shop page            */ a[data-list-item-id$="___shop"],
 /* help button          */ a[href="https://support.discord.com"],
 /* gift nitro button    */ button[aria-label="Send a gift"],
-/* activity call ui     */ div.buttonContainer_b6e2f9,
-/* suggested friends    */ div.item_c2739c[aria-label="Suggestions"],
-/* add server           */ div.tutorialContainer_c96c45,
-/* public servers       */ div.listItem_c96c45:has(div[aria-label="Explore Discoverable Servers"]),
-/* voice fx call ui     */ div.voiceEffectsActionBar_d7b7fd,
-/* dupe call ui         */ div.wrapper_d880dc.poppedOut_d880dc,
+/* activity call ui     */ div[class^="buttonContainer_"],
+/* suggested friends    */ div[class^="item_"][aria-label="Suggestions"],
+/* add server           */ div[class^="tutorialContainer_"],
+/* public servers       */ div[class^="listItem_"]:has(div[aria-label="Explore Discoverable Servers"]),
+/* voice fx call ui     */ div[class^="voiceEffectsActionBar_"],
+/* dupe call ui         */ div[class^="wrapper_"][class*="poppedOut_"],
 /* context languages    */ div[id="textarea-context-languages"],
 /* context spellcheck   */ div[id="textarea-context-spellcheck"],
 /* context submit       */ div[id="textarea-context-submit-button"],
 /* context suggestions  */ div[id="textarea-context-suggestions"],
 /* vesktop spellcheck   */ div[id="textarea-context-vcd-spellcheck-enabled"]
   { display: none; }
-/* settings alignment   */ div.sidebarRegion__36437
+/* settings alignment   */ div[class^="sidebarRegion_"]
   { flex: 1; }
-/* fix inbox mask       */ svg.svg_d48241.mask_f9bbb4>foreignObject
+/* fix inbox mask       */ svg[class^="svg_"][class*="mask_"]>foreignObject
   { mask-mode: alpha; }
