@@ -32,7 +32,7 @@
 /* gift nitro button    */ button[aria-label="Send a gift"],
 /* activity call ui     */ div[class^="buttonContainer_"],
 /* suggested friends    */ div[class^="item_"][aria-label="Suggestions"],
-/* add server           */ div[class^="tutorialContainer_"],
+/* add server           */ div[class^="listItem_"]:has(div[aria-label="Add a Server"]),
 /* public servers       */ div[class^="listItem_"]:has(div[aria-label="Explore Discoverable Servers"]),
 /* voice fx call ui     */ div[class^="voiceEffectsActionBar_"],
 /* dupe call ui         */ div[class^="wrapper_"][class*="poppedOut_"],
@@ -44,5 +44,5 @@
   { display: none; }
 /* settings alignment   */ div[class^="sidebarRegion_"]
   { flex: 1; }
-/* fix inbox mask       */ svg[class^="svg_"][class*="mask_"]>foreignObject
+/* fix inbox mask       */ foreignObject[mask="url(#svg-mask-avatar-status-round-16)"]
   { mask-mode: alpha; }
