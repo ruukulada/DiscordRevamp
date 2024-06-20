@@ -30,7 +30,7 @@
 /* shop page            */ a[data-list-item-id$="___shop"],
 /* help button          */ a[href="https://support.discord.com"],
 /* gift nitro button    */ button[aria-label="Send a gift"],
-/* activity call ui     */ div[class^="buttonContainer_"],
+/* activity call ui     */ div[class^="buttonContainer_"]:has(button[aria-label="Start An Activity"]),
 /* suggested friends    */ div[class^="item_"][aria-label="Suggestions"],
 /* add server           */ div[class^="listItem_"]:has(div[aria-label="Add a Server"]),
 /* public servers       */ div[class^="listItem_"]:has(div[aria-label="Explore Discoverable Servers"]),
