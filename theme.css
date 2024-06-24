@@ -14,9 +14,9 @@
   --primary-700:hsl(243, 23%, 12%);--primary-730:hsl(243, 22%,12%);--primary-760:hsl(243, 21%, 12%);
   --primary-800:hsl(243, 21%, 11%);--primary-830:hsl(243, 21%,11%);--primary-860:hsl(243, 21%, 11%);
   --primary-900:hsl(243, 20%, 10%);--primary-500-hsl:  243  25  37  ;
-  --background-modifier-accent:var(--primary-630); --background-modifier-hover:   var(--primary-600);
-  --background-modifier-active:var(--primary-600); --background-modifier-selected:var(--primary-560);
-  --search-popout-option-fade: transparent;        --search-popout-option-fade-hover:transparent;
+  --background-modifier-accent:var(--primary-630);--background-modifier-active:var(--primary-600);
+  --background-modifier-hover:var(--primary-600);--background-modifier-selected:var(--primary-560);
+  --search-popout-option-fade: transparent;--search-popout-option-fade-hover:transparent;
 }
 
 /* hide groomer junk  */
