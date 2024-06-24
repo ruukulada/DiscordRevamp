@@ -20,7 +20,7 @@
 }
 
 /* hide groomer junk */
-/* nitro, shop page  */ a[data-list-item-id$="___nitro"], a[data-list-item-id$="___shop"],
+/* nitro/shop page   */ a[data-list-item-id$="___nitro"], a[data-list-item-id$="___shop"],
 /* help/nitro button */ a[href="https://support.discord.com"], button[aria-label="Send a gift"],
 /* activity button   */ div[class^="buttonContainer_"]:has(button[aria-label="Start An Activity"]),
 /* suggested friends */ div[class^="item_"][aria-label="Suggestions"],
