@@ -19,19 +19,19 @@
   --search-popout-option-fade: transparent;--search-popout-option-fade-hover:transparent;
 }
 
-/* hide groomer junk  */
-/* nitro, shop page   */ a[data-list-item-id$="___nitro"], a[data-list-item-id$="___shop"],
-/* help, nitro button */ a[href="https://support.discord.com"], button[aria-label="Send a gift"],
-/* activity button    */ div[class^="buttonContainer_"]:has(button[aria-label="Start An Activity"]),
-/* suggested friends  */ div[class^="item_"][aria-label="Suggestions"],
-/* add, public server */ div[class^="listItem_"]:has(div[aria-label="Add a Server"]),
-/*                    */ div[class^="listItem_"]:has(div[aria-label="Explore Discoverable Servers"]),
-/* call ui cleanup    */ div[class*="poppedOut_"], div[class^="voiceEffectsActionBar_"],
-/* context cleanup    */ div[id="textarea-context-languages"], div[id="textarea-context-spellcheck"],
-/*                    */ div[id="textarea-context-submit-button"], div[id="textarea-context-suggestions"],
-/*                    */ div[id="textarea-context-vcd-spellcheck-enabled"]
+/* hide groomer junk */
+/* nitro, shop page  */ a[data-list-item-id$="___nitro"], a[data-list-item-id$="___shop"],
+/* help/nitro button */ a[href="https://support.discord.com"], button[aria-label="Send a gift"],
+/* activity button   */ div[class^="buttonContainer_"]:has(button[aria-label="Start An Activity"]),
+/* suggested friends */ div[class^="item_"][aria-label="Suggestions"],
+/* add/public server */ div[class^="listItem_"]:has(div[aria-label="Add a Server"]),
+/*                   */ div[class^="listItem_"]:has(div[aria-label="Explore Discoverable Servers"]),
+/* call ui cleanup   */ div[class*="poppedOut_"], div[class^="voiceEffectsActionBar_"],
+/* context cleanup   */ div[id="textarea-context-languages"], div[id="textarea-context-spellcheck"],
+/*                   */ div[id="textarea-context-submit-button"], div[id="textarea-context-suggestions"],
+/*                   */ div[id="textarea-context-vcd-spellcheck-enabled"], div[role="separator"]
   { display: none; }
-/* settings alignment */ div[class^="sidebarRegion_"]
+/* settings align    */ div[class^="sidebarRegion_"]
   { flex: 1; }
-/* fix inbox mask     */ foreignObject[mask="url(#svg-mask-avatar-status-round-16)"]
+/* fix inbox mask    */ foreignObject[mask="url(#svg-mask-avatar-status-round-16)"]
   { mask-mode: alpha; }
