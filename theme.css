@@ -16,7 +16,7 @@
   --primary-900:hsl(243, 20%, 10%);--primary-500-hsl:243  25%  37%;
   --background-modifier-accent:var(--primary-630);--background-modifier-active:var(--primary-600);
   --background-modifier-hover:var(--primary-600);--background-modifier-selected:var(--primary-560);
-  --search-popout-option-fade: transparent;--search-popout-option-fade-hover:transparent;
+  --search-popout-option-fade:transparent;--search-popout-option-fade-hover:transparent;
 }
 
 /* hide groomer junk */
