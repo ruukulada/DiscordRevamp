@@ -29,7 +29,7 @@
 /* call ui cleanup   */ div[class*="poppedOut_"], div[class^="voiceEffectsActionBar_"],
 /* context cleanup   */ div[id="textarea-context-languages"], div[id="textarea-context-spellcheck"],
 /*                   */ div[id="textarea-context-submit-button"], div[id="textarea-context-suggestions"],
-/*                   */ div[id="textarea-context-vcd-spellcheck-enabled"], div[role="separator"]
+/*                   */ div[id="textarea-context-vcd-spellcheck-enabled"], div[class^="scroller_"]>[role="separator"]
   { display: none; }
 /* settings align    */ div[class^="sidebarRegion_"]
   { flex: 1; }
