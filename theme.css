@@ -25,8 +25,8 @@
 /* suggested friends */ div[aria-label="Friends"]>div[aria-label="Suggestions"],
 /* activity button   */ div[class^="buttonContainer_"]:has(button[aria-label="Start An Activity"]),
 /* call ui cleanup   */ div[class*="poppedOut_"], div[class^="voiceEffectsActionBar_"],
-/* context cleanup   */ div[id="textarea-context-languages"], div[id^="textarea-context-s"],
-/*                   */ div[id^="textarea-context-vcd-spellcheck"], div[class^="scroller_"]>[role="separator"],
+/* context cleanup   */ div[id="textarea-context"]>div>div[role="separator"], div[id="textarea-context-languages"],
+/*                   */ div[id^="textarea-context-s"], div[id^="textarea-context-vcd-spellcheck"],
 /* add/public server */ ul[data-list-id="guildsnav"]>div>:has(div[aria-label="Add a Server"]),
 /*                   */ ul[data-list-id="guildsnav"]>div>:has(div[aria-label="Explore Discoverable Servers"])
   { display: none; }
