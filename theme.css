@@ -30,5 +30,3 @@
 /* add/public server */ ul[data-list-id="guildsnav"]>div>:has(div[aria-label="Add a Server"]),
 /*                   */ ul[data-list-id="guildsnav"]>div>:has(div[aria-label="Explore Discoverable Servers"])
   { display: none; }
-/* fix inbox mask    */ foreignObject[mask="url(#svg-mask-avatar-status-round-16)"]
-  { mask-mode: alpha; }
