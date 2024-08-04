@@ -21,7 +21,7 @@
 
 /* hide groomer junk */
 /* nitro/shop page   */ a[data-list-item-id$="___nitro"], a[data-list-item-id$="___shop"],
-/* help/nitro button */ a[href="https://support.discord.com"], button[aria-label="Send a gift"],
+/* support/apps/gift */ a[href="https://support.discord.com"], button[aria-label="Apps"], button[aria-label="Send a gift"],
 /* suggested friends */ div[aria-label="Friends"]>div[aria-label="Suggestions"],
 /* activity button   */ div[class^="buttonContainer_"]:has(button[aria-label="Start An Activity"]),
 /* call ui cleanup   */ div[class*="poppedOut_"], div[class^="voiceEffectsActionBar_"],
