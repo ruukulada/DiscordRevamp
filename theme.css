@@ -22,10 +22,9 @@
 /* hide groomer junk */
 /* apps/gift button  */ [aria-label="Apps"],[aria-label="Send a gift"],
 /* suggested friends */ [aria-label="Friends"]>[aria-label="Suggestions"],
-/* activity button   */ [class^="buttonContainer_"]:has([aria-label="Start An Activity"]),
-/* call ui cleanup   */ [class*="poppedOut_"],[class^="voiceEffectsActionBar_"],
-/* add/public server */ [data-list-id="guildsnav"]>div>:has([aria-label="Add a Server"],[aria-label="Explore Discoverable Servers"]),
-/* nitro/shop page   */ [data-list-item-id$="___nitro"],[data-list-item-id$="___shop"],
+/* call ui cleanup   */ [aria-label="Play Activities here"],[class^="voiceEffectsActionBar_"],
+/* nitro/shop page   */ li:has([data-list-item-id$="___nitro"],[data-list-item-id$="___shop"]),
+/* add/public server */ [data-list-id="guildsnav"]>div>div:has([data-list-item-id$="-button"]),
 /* help button       */ [href="https://support.discord.com"],
 /* context cleanup   */ [id="textarea-context"]>div>[role="separator"],[id="textarea-context-languages"],
 /*                   */ [id^="textarea-context-s"],[id^="textarea-context-vcd-spellcheck"]
