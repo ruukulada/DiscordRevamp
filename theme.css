@@ -20,7 +20,7 @@
 }
 
 /* hide groomer junk */
-/* apps/gift button  */ [aria-label="Apps"],[aria-label="Send a gift"],
+/* apps/forward/gift */ [aria-label="Apps"],[aria-label="Forward"],[aria-label="Send a gift"],
 /* suggested friends */ [aria-label="Friends"]>[aria-label="Suggestions"],
 /* call ui cleanup   */ [aria-label="Play Activities here"],[class^="voiceEffectsActionBar_"],
 /* nitro/shop page   */ li:has([data-list-item-id$="___nitro"],[data-list-item-id$="___shop"]),
