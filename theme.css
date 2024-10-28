@@ -4,7 +4,7 @@
  * @version 1.0
  * @author ruukulada
 **/
-.theme-dark,.theme-light,:root {
+.theme-dark {
   --primary-100:hsl(243, 31%,100%);--primary-130:hsl(243, 30%, 97%);--primary-160:hsl(243, 29%, 94%);
   --primary-200:hsl(243, 29%, 90%);--primary-230:hsl(243, 28%, 87%);--primary-260:hsl(243, 27%, 84%);
   --primary-300:hsl(243, 27%, 80%);--primary-330:hsl(243, 27%, 77%);--primary-345:hsl(243, 27%, 74%);--primary-360:hsl(243, 27%, 71%);
