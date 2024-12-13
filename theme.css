@@ -14,19 +14,27 @@
   --primary-700:hsl(243, 23%, 12%);--primary-730:hsl(243, 22%, 12%);--primary-760:hsl(243, 21%, 12%);
   --primary-800:hsl(243, 21%, 11%);--primary-830:hsl(243, 21%, 11%);--primary-860:hsl(243, 21%, 11%);
   --primary-900:hsl(243, 20%, 10%);--primary-500-hsl:243  25%  37%;
-  --background-modifier-accent:var(--primary-630);--background-modifier-active:var(--primary-600);
-  --background-modifier-hover:var(--primary-600);--background-modifier-selected:var(--primary-560);
-  --search-popout-option-fade:transparent;--search-popout-option-fade-hover:transparent;
+  --background-modifier-accent:var(--primary-630);
+  --background-modifier-active:var(--primary-600);
+  --background-modifier-hover:var(--primary-600);
+  --background-modifier-selected:var(--primary-560);
+  --search-popout-option-fade:transparent;
+  --search-popout-option-fade-hover:transparent;
 }
 
 /* hide groomer junk */
-/* apps/forward/gift */ [aria-label="Apps"],[aria-label="Forward"],[aria-label="Send a gift"],
-/* suggested friends */ [aria-label="Friends"]>[aria-label="Suggestions"],
-/* call ui cleanup   */ [aria-label="Play Activities here"],[class^="voiceEffectsActionBar_"],
-/* nitro/shop page   */ li:has([data-list-item-id$="___nitro"],[data-list-item-id$="___shop"]),
-/* join server       */ [data-list-id="guildsnav"]>div>div>:has([data-list-item-id="guildsnav___create-join-button"]),
-/* discover server   */ [data-list-id="guildsnav"]>div>:has([data-list-item-id="guildsnav___guild-discover-button"]),
-/* help button       */ [href="https://support.discord.com"],
-/* context cleanup   */ [id="textarea-context"]>div>[role="separator"],[id="textarea-context-languages"],
-/*                   */ [id^="textarea-context-s"],[id^="textarea-context-vcd-spellcheck"]
+/* nitro/shop/help   */ a[href="/shop"],a[href="/store"],a[href="https://support.discord.com"],
+/* apps/gift         */ button[aria-label="Apps"],button[aria-label="Send a gift"],
+/* navigation        */ ul[data-list-id="guildsnav"]>div>div>div:has(
+/* create/join       */ div[data-list-item-id="guildsnav___create-join-button"],
+/* discover          */ div[data-list-item-id="guildsnav___guild-discover-button"]),
+/* close/leave dm    */ div[aria-label="Close DM"]>svg,div[aria-label="Leave Group"]>svg,
+/* dm buttons        */ div[aria-label="Create DM"],svg[class="vc-pindms-collapse-icon"]
+/* suggested friends */ div[aria-label="Friends"]>div[aria-label="Suggestions"],
+/* call ui cleanup   */ div[aria-label="Play Activities here"],div[class^="voiceEffectsActionBar_"],
+/* context/languages */ div[id="textarea-context"]>div>div[role="separator"],div[id="textarea-context-languages"],
+/* spellcheck/submit */ div[id="textarea-context-spellcheck"],div[id="textarea-context-submit-button"],
+/* suggestions/vcd   */ div[id="textarea-context-suggestions"],div[id^="textarea-context-vcd-spellcheck"]
   { display: none; }
+/* close/leave dm    */ div[aria-label="Close DM"],div[aria-label="Leave Group"],h2
+  { pointer-events: none; }
