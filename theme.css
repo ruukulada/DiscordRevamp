@@ -29,7 +29,7 @@
 /* create/join       */ div[data-list-item-id="guildsnav___create-join-button"],
 /* discover          */ div[data-list-item-id="guildsnav___guild-discover-button"]),
 /* close/leave dm    */ div[aria-label="Close DM"]>svg,div[aria-label="Leave Group"]>svg,
-/* dm buttons        */ div[aria-label="Create DM"],svg[class="vc-pindms-collapse-icon"]
+/* dm buttons        */ div[aria-label="Create DM"],svg[class="vc-pindms-collapse-icon"],
 /* suggested friends */ div[aria-label="Friends"]>div[aria-label="Suggestions"],
 /* call ui cleanup   */ div[aria-label="Play Activities here"],div[class^="voiceEffectsActionBar_"],
 /* context/languages */ div[id="textarea-context"]>div>div[role="separator"],div[id="textarea-context-languages"],
