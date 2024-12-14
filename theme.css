@@ -34,7 +34,7 @@
 /* call ui cleanup   */ div[aria-label="Play Activities here"],div[class^="voiceEffectsActionBar_"],
 /* context/languages */ div[id="textarea-context"]>div>div[role="separator"],div[id="textarea-context-languages"],
 /* spellcheck/submit */ div[id="textarea-context-spellcheck"],div[id="textarea-context-submit-button"],
-/* suggestions/vcd   */ div[id="textarea-context-suggestions"],div[id^="textarea-context-vcd-spellcheck"]
+/* suggestions/vcd   */ div[id="textarea-context-suggestions"],div[id="textarea-context-vcd-spellcheck-settings"]
   { display: none; }
 /* close/leave dm    */ div[aria-label="Close DM"],div[aria-label="Leave Group"],h2
   { pointer-events: none; }
