@@ -5,7 +5,9 @@
       const params = new URLSearchParams(window.location.search);
       const fontName = params.get('font') || 'IowanOldSt BT'; // Default fallback font
       const css = `.theme-dark {\n  --font-display: '${fontName.replace(/_/g, ' ')}';\n  --font-primary: '${fontName.replace(/_/g, ' ')}';\n}`;
-      document.write(`<pre style="word-wrap: break-word; white-space: pre-wrap;">${css}</pre>`);
+      document.open();
+      document.write(css);
+      document.close();
     </script>
   </head>
   <body></body>
