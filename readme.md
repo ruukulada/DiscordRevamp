@@ -1,3 +1,4 @@
+Colors + Layout:
 ```
 https://ruukulada.github.io/DiscordRevamp/theme.css
 ```
