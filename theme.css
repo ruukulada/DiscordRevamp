@@ -1,42 +1,8 @@
-/**
+/*
  * @name Discord Revamp
  * @description A revamped theme inspired by the Discord promotional materials
- * @version 1.0
  * @author ruukulada
-**/
-.theme-dark {
-  --primary-100:hsl(243, 31%,100%);--primary-130:hsl(243, 30%, 97%);--primary-160:hsl(243, 29%, 94%);
-  --primary-200:hsl(243, 29%, 90%);--primary-230:hsl(243, 28%, 87%);--primary-260:hsl(243, 27%, 84%);
-  --primary-300:hsl(243, 27%, 80%);--primary-330:hsl(243, 27%, 77%);--primary-345:hsl(243, 27%, 74%);--primary-360:hsl(243, 27%, 71%);
-  --primary-400:hsl(243, 27%, 70%);--primary-430:hsl(243, 26%, 67%);--primary-460:hsl(243, 25%, 64%);
-  --primary-500:hsl(243, 25%, 37%);--primary-530:hsl(243, 24%, 32%);--primary-560:hsl(243, 23%, 27%);
-  --primary-600:hsl(243, 23%, 21%);--primary-630:hsl(243, 23%, 18%);--primary-645:hsl(243, 23%, 15%);--primary-660:hsl(243, 23%, 12%);
-  --primary-700:hsl(243, 23%, 12%);--primary-730:hsl(243, 22%, 12%);--primary-760:hsl(243, 21%, 12%);
-  --primary-800:hsl(243, 21%, 11%);--primary-830:hsl(243, 21%, 11%);--primary-860:hsl(243, 21%, 11%);
-  --primary-900:hsl(243, 20%, 10%);--primary-500-hsl:243  25%  37%;
-  --background-modifier-accent:var(--primary-630);
-  --background-modifier-active:var(--primary-600);
-  --background-modifier-hover:var(--primary-600);
-  --background-modifier-selected:var(--primary-560);
-  --search-popout-option-fade:transparent;
-  --search-popout-option-fade-hover:transparent;
-}
+ */
 
-/* hide groomer junk */
-/* nitro/shop/help   */ a[href="/shop"],a[href="/store"],a[href="https://support.discord.com"],
-/* apps/gift         */ button[aria-label="Apps"],button[aria-label="Send a gift"],
-/* navigation        */ ul[data-list-id="guildsnav"]>div>div>div:has(
-/* create/join       */ div[data-list-item-id="guildsnav___create-join-button"],
-/* discover          */ div[data-list-item-id="guildsnav___guild-discover-button"]),
-/* dm buttons        */ div[aria-label="Create DM"],svg[class="vc-pindms-collapse-icon"],
-/* suggested friends */ div[aria-label="Friends"]>div[aria-label="Suggestions"],
-/* call ui cleanup   */ div[aria-label="Play Activities here"],div[class^="voiceEffectsActionBar_"],
-/* context/languages */ div[id="textarea-context"]>div>div[role="separator"],div[id="textarea-context-languages"],
-/* spellcheck/submit */ div[id="textarea-context-spellcheck"],div[id="textarea-context-submit-button"],
-/* suggestions/vcd   */ div[id="textarea-context-suggestions"],div[id="textarea-context-vcd-spellcheck-settings"],
-/* close/leave dm    */ div[aria-label="Close DM"]>svg,div[aria-label="Leave Group"]>svg
-  { display: none; }
-/* close/leave dm    */ div[aria-label="Close DM"],div[aria-label="Leave Group"],h2
-  { pointer-events: none; }
-/* close/leave dm    */ div[aria-label="Close DM"],div[aria-label="Leave Group"]
-  { position: absolute; }
+@import url('https://ruukulada.github.io/DiscordRevamp/styles/colors.css');
+@import url('https://ruukulada.github.io/DiscordRevamp/styles/layout.css');
