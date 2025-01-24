@@ -1,41 +1,32 @@
-:root {
-  --primary-100:hsl(243, 32%, 100%);
-  --primary-130:hsl(243, 31%, 97%);
-  --primary-160:hsl(243, 30%, 94%);
-  --primary-200:hsl(243, 29%, 90%);
-  --primary-230:hsl(243, 28%, 87%);
-  --primary-260:hsl(243, 27%, 84%);
-  --primary-300:hsl(243, 26%, 80%);
-  --primary-330:hsl(243, 25%, 77%); --primary-345:hsl(243, 24.5%, 75.5%);
-  --primary-360:hsl(243, 24%, 74%);
-  --primary-400:hsl(243, 23%, 70%);
-  --primary-430:hsl(243, 22%, 57%);
-  --primary-460:hsl(243, 21%, 54%);
-  --primary-500:hsl(243, 20%, 50%);
-  --primary-530:hsl(243, 21%, 40%);
-  --primary-560:hsl(243, 22%, 31%);
-  --primary-600:hsl(243, 23%, 25%);
-  --primary-630:hsl(243, 24%, 20%); --primary-645:hsl(243, 24.5%, 18%);
-  --primary-660:hsl(243, 25%, 16%);
-  --primary-700:hsl(243, 26%, 13%);
-  --primary-730:hsl(243, 27%, 12%);
-  --primary-760:hsl(243, 28%, 11%);
-  --primary-800:hsl(243, 29%, 10%);
-  --primary-830:hsl(243, 30%, 10%);
-  --primary-860:hsl(243, 31%, 10%);
-  --primary-900:hsl(243, 32%, 10%);
-  --primary-500-hsl:243 20% 50%;
-  --search-popout-option-fade:transparent;
-  --search-popout-option-fade-hover:transparent;
-  --background-modifier-accent:transparent;
-}
-.theme-dark {
-  --background-modifier-active:var(--primary-560);
-  --background-modifier-hover:var(--primary-560);
-  --background-modifier-selected:var(--primary-530);
-}
-.theme-light {
-  --background-modifier-active:var(--primary-200);
-  --background-modifier-hover:var(--primary-200);
-  --background-modifier-selected:var(--primary-260);
+:root{
+  --primary-100: hsl(  0 32   97.647%);
+  --primary-130: hsl(243 31   95.49% );
+  --primary-160: hsl(243 30   92.941%);
+  --primary-200: hsl(243 29   90%    );
+  --primary-230: hsl(243 28   87.059%);
+  --primary-260: hsl(243 27   83.725%);
+  --primary-300: hsl(243 26   78.824%);
+  --primary-330: hsl(243 25   73.333%);
+  --primary-345: hsl(243 24.5 67.451%);
+  --primary-360: hsl(243 24   61.176%);
+  --primary-400: hsl(243 23   52.941%);
+  --primary-430: hsl(243 22   44.902%);
+  --primary-460: hsl(243 21   38.039%);
+  --primary-500: hsl(243 20   32.549%);
+  --primary-530: hsl(243 21   27.255%);
+  --primary-560: hsl(243 22   23.529%);
+  --primary-600: hsl(243 23   20.588%);
+  --primary-630: hsl(243 24   18.039%);
+  --primary-645: hsl(243 24.5 16.863%);
+  --primary-660: hsl(243 25   14.706%);
+  --primary-700: hsl(243 26   12.549%);
+  --primary-730: hsl(243 27   10.980%);
+  --primary-760: hsl(243 28    9.216%);
+  --primary-800: hsl(243 29    7.255%);
+  --primary-830: hsl(243 30    4.902%);
+  --primary-860: hsl(243 31    2.549%);
+  --primary-900: hsl(  0  0    0.784%);
+
+  --primary-500-hsl: 243 20 32.549%;
+  --background-modifier-accent: transparent;
 }
