@@ -13,7 +13,7 @@ div[id="textarea-context-suggestions"],div[id="textarea-context-vcd-spellcheck-s
 div[aria-label="Close DM"]>svg,div[aria-label="Leave Group"]>svg                           /* close/leave dm */
   { display: none; }
 div[aria-label="Close DM"],div[aria-label="Leave Group"],                                  /* close/leave dm */
-ul[aria-label="Direct Messages"]>div[role="button"],ul[aria-label="Direct Messages"]>h2
+ul[aria-label="Direct Messages"]>div[role="button"],ul[aria-label="Direct Messages"]>h2    /* dm sections */
   { pointer-events: none; }
  div[aria-label="Close DM"],div[aria-label="Leave Group"]                                  /* close/leave dm */
   { position: absolute; }
