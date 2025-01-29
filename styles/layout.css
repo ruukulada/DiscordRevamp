@@ -1,19 +1,31 @@
 /* hide groomer junk */
-a[href="/shop"],a[href="/store"],a[href="https://support.discord.com"],                    /* nitro/shop/help */
-button[aria-label="Apps"],button[aria-label="Send a gift"],                                /* apps/gift */
-ul[data-list-id="guildsnav"]>div>div>div:has(                                              /* navigation */ 
-div[data-list-item-id="guildsnav___create-join-button"],                                   /* create/join */
-div[data-list-item-id="guildsnav___guild-discover-button"]),                               /* discover */
-div[aria-label="Create DM"],svg[class="vc-pindms-collapse-icon"],                          /* dm buttons */
-div[aria-label="Friends"]>div[aria-label="Suggestions"],                                   /* suggested friends */
-div[aria-label="Play Activities here"],div[class^="voiceEffectsActionBar_"],               /* call ui cleanup   */
-div[id="textarea-context"]>div>div[role="separator"],div[id="textarea-context-languages"], /* context/languages */
-div[id="textarea-context-spellcheck"],div[id="textarea-context-submit-button"],            /* spellcheck/submit */
-div[id="textarea-context-suggestions"],div[id="textarea-context-vcd-spellcheck-settings"], /* suggestions/vcd */
-div[aria-label="Close DM"]>svg,div[aria-label="Leave Group"]>svg                           /* close/leave dm */
+a[href="/shop"],
+a[href="/store"],
+a[href="https://support.discord.com"],
+button[aria-label="Apps"],
+button[aria-label="Send a gift"],
+div[aria-label="Close DM"]>svg,
+div[aria-label="Create DM"],
+div[aria-label="Friends"]>div[aria-label="Suggestions"],
+div[aria-label="Leave Group"]>svg,
+div[aria-label="Play Activities here"],
+div[class^="voiceEffectsActionBar_"],
+div[id="textarea-context"]>div>div[role="separator"],
+div[id="textarea-context-languages"],
+div[id="textarea-context-spellcheck"],
+div[id="textarea-context-submit-button"],
+div[id="textarea-context-suggestions"],
+div[id="textarea-context-vcd-spellcheck-settings"],
+svg[class="vc-pindms-collapse-icon"],
+ul[data-list-id="guildsnav"]>div>div>div:has(
+div[data-list-item-id="guildsnav___create-join-button"],
+div[data-list-item-id="guildsnav___guild-discover-button"])
   { display: none; }
-div[aria-label="Close DM"],div[aria-label="Leave Group"],                                  /* close/leave dm */
-ul[aria-label="Direct Messages"]>div[role="button"],ul[aria-label="Direct Messages"]>h2    /* dm sections */
+div[aria-label="Close DM"],
+div[aria-label="Leave Group"],
+ul[aria-label="Direct Messages"]>div[role="button"],
+ul[aria-label="Direct Messages"]>h2
   { pointer-events: none; }
- div[aria-label="Close DM"],div[aria-label="Leave Group"]                                  /* close/leave dm */
+div[aria-label="Close DM"],
+div[aria-label="Leave Group"]
   { position: absolute; }
