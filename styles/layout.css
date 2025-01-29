@@ -1,18 +1,19 @@
 /* hide groomer junk */
-/* nitro/shop/help   */ a[href="/shop"],a[href="/store"],a[href="https://support.discord.com"],
-/* apps/gift         */ button[aria-label="Apps"],button[aria-label="Send a gift"],
-/* navigation        */ ul[data-list-id="guildsnav"]>div>div>div:has(
-/* create/join       */ div[data-list-item-id="guildsnav___create-join-button"],
-/* discover          */ div[data-list-item-id="guildsnav___guild-discover-button"]),
-/* dm buttons        */ div[aria-label="Create DM"],svg[class="vc-pindms-collapse-icon"],
-/* suggested friends */ div[aria-label="Friends"]>div[aria-label="Suggestions"],
-/* call ui cleanup   */ div[aria-label="Play Activities here"],div[class^="voiceEffectsActionBar_"],
-/* context/languages */ div[id="textarea-context"]>div>div[role="separator"],div[id="textarea-context-languages"],
-/* spellcheck/submit */ div[id="textarea-context-spellcheck"],div[id="textarea-context-submit-button"],
-/* suggestions/vcd   */ div[id="textarea-context-suggestions"],div[id="textarea-context-vcd-spellcheck-settings"],
-/* close/leave dm    */ div[aria-label="Close DM"]>svg,div[aria-label="Leave Group"]>svg
+a[href="/shop"],a[href="/store"],a[href="https://support.discord.com"],                    /* nitro/shop/help */
+button[aria-label="Apps"],button[aria-label="Send a gift"],                                /* apps/gift */
+ul[data-list-id="guildsnav"]>div>div>div:has(                                              /* navigation */ 
+div[data-list-item-id="guildsnav___create-join-button"],                                   /* create/join */
+div[data-list-item-id="guildsnav___guild-discover-button"]),                               /* discover */
+div[aria-label="Create DM"],svg[class="vc-pindms-collapse-icon"],                          /* dm buttons */
+div[aria-label="Friends"]>div[aria-label="Suggestions"],                                   /* suggested friends */
+div[aria-label="Play Activities here"],div[class^="voiceEffectsActionBar_"],               /* call ui cleanup   */
+div[id="textarea-context"]>div>div[role="separator"],div[id="textarea-context-languages"], /* context/languages */
+div[id="textarea-context-spellcheck"],div[id="textarea-context-submit-button"],            /* spellcheck/submit */
+div[id="textarea-context-suggestions"],div[id="textarea-context-vcd-spellcheck-settings"], /* suggestions/vcd */
+div[aria-label="Close DM"]>svg,div[aria-label="Leave Group"]>svg                           /* close/leave dm */
   { display: none; }
-/* close/leave dm    */ div[aria-label="Close DM"],div[aria-label="Leave Group"],h2
+div[aria-label="Close DM"],div[aria-label="Leave Group"],                                  /* close/leave dm */
+ul[aria-label="Direct Messages"]>div[role="button"],ul[aria-label="Direct Messages"]>h2
   { pointer-events: none; }
-/* close/leave dm    */ div[aria-label="Close DM"],div[aria-label="Leave Group"]
+ div[aria-label="Close DM"],div[aria-label="Leave Group"]                                  /* close/leave dm */
   { position: absolute; }
