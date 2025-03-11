@@ -4,10 +4,7 @@ a[href="/store"],
 a[href="https://support.discord.com"],
 button[aria-label="Apps"],
 button[aria-label="Send a gift"],
-div[aria-label="Close DM"]>svg,
-div[aria-label="Create DM"],
 div[aria-label="Friends"]>div[aria-label^="Suggestions"],
-div[aria-label="Leave Group"]>svg,
 div[aria-label="Play Activities here"],
 div:has(>div[aria-label="Play Activities here"])+div,
 div[id="textarea-context"]>div>div[role="separator"],
@@ -22,10 +19,7 @@ div[data-list-item-id="guildsnav___create-join-button"],
 div[data-list-item-id="guildsnav___guild-discover-button"])
   { display: none; }
 div[aria-label="Close DM"],
-div[aria-label="Leave Group"],
-ul[aria-label="Direct Messages"]>div[role="button"],
-ul[aria-label="Direct Messages"]>h2
-  { pointer-events: none; }
-div[aria-label="Close DM"],
 div[aria-label="Leave Group"]
-  { position: absolute; }
+  { color: transparent; pointer-events: none; position: absolute; }
+ul[aria-label="Direct Messages"]>div[role="button"]
+  { pointer-events: none; }
