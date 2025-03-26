@@ -1,6 +1,4 @@
 /* hide groomer junk */
-a[href="/shop"],
-a[href="/store"],
 a[href="https://support.discord.com"],
 button[aria-label="Apps"],
 button[aria-label="Send a gift"],
@@ -14,6 +12,7 @@ div[id="textarea-context-submit-button"],
 div[id="textarea-context-suggestions"],
 div[id="textarea-context-vcd-spellcheck-settings"],
 svg[class="vc-pindms-collapse-icon"],
+ul[aria-label="Direct Messages"]>li:has(a[href="/shop"],a[href="/store"]),
 ul[data-list-id="guildsnav"]>div>div>div:has(
 div[data-list-item-id="guildsnav___create-join-button"],
 div[data-list-item-id="guildsnav___guild-discover-button"])
