@@ -1,4 +1,4 @@
-Colors + Layout:
+Colors + Layout + Nitro no gradient:
 ```
 https://ruukulada.github.io/DiscordRevamp/theme.css
 ```
