@@ -2,6 +2,6 @@ div[data-list-item-id^="guildsnav___"],
 div[data-list-item-id^="guildsnav___"]>div>div>div
   { clip-path: circle(50%); }
 div[class^="expandedFolder"]
-  { border-radius: 50%; }
+  { border-radius: 50% !important; }
 span[class^="expandedFolder"]
   { border-radius: 9999px !important; }
