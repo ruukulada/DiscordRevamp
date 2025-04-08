@@ -19,6 +19,6 @@ div[data-list-item-id="guildsnav___guild-discover-button"])
   { display: none; }
 div[aria-label="Close DM"],
 div[aria-label="Leave Group"]
-  { color: transparent; pointer-events: none; position: absolute; }
+  { pointer-events: none; position: absolute; visibility: hidden; }
 ul[aria-label="Direct Messages"]>div[role="button"]
   { pointer-events: none; }
