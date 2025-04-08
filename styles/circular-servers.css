@@ -4,4 +4,4 @@ div[data-list-item-id^="guildsnav___"]>div>div>div
 div[class^="expandedFolder"]
   { border-radius: 50%; }
 span[class^="expandedFolder"]
-  { border-radius: 9999px; }
+  { border-radius: 9999px; !important; }
