@@ -14,3 +14,7 @@ Nitro no gradient:
 ```
 https://ruukulada.github.io/DiscordRevamp/styles/nitro-no-gradient.css
 ```
+Text clarity:
+```
+https://ruukulada.github.io/DiscordRevamp/styles/text-clarity.css
+```
