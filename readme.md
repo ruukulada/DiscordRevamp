@@ -1,4 +1,4 @@
-Circular servers + Colors + Layout + Nitro no gradient:
+Circular servers + Colors + Layout + Nitro no gradient + Text clarity:
 ```
 https://ruukulada.github.io/DiscordRevamp/theme.css
 ```
