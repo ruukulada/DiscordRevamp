@@ -1,6 +1,4 @@
-.theme-dark {
-  text-shadow: 0 0 1px rgba(255,255,255,0.3);
-}
-.theme-light {
-  text-shadow: 0 0 1px rgba(  0,  0,  0,0.3);
+:root {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
