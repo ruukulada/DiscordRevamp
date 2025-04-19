@@ -1,0 +1,4 @@
+* {
+  --font-display: 'Roboto Flex';
+  --font-primary: 'Roboto Flex';
+}
