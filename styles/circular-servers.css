@@ -1,7 +1,12 @@
-div[data-list-item-id^="guildsnav___"],
-div[data-list-item-id^="guildsnav___"]>div>div>div
+div[data-list-item-id^="guildsnav___"]
   { clip-path: circle(50%); }
-div[class^="expandedFolder"]
-  { border-radius: 50% !important; }
-span[class^="expandedFolder"]
-  { border-radius: 9999px !important; }
+div[class^="icon_"]:nth-child(-n+4) 
+  { border-radius: 50%; }
+ul[data-list-id="guildsnav"]
+  { --radius-xs: 2147483647px;
+    --radius-sm: 2147483647px;
+    --radius-md: 2147483647px;
+    --radius-lg: 2147483647px;
+    --radius-xl: 2147483647px;
+    --radius-xxl: 2147483647px;
+    --radius-round: 2147483647px; }
