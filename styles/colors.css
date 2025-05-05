@@ -1,3 +1,5 @@
+@import url('https://ruukulada.github.io/DiscordRevamp/styles/nitro-no-gradient.css');
+
 :root:not(.custom-theme-background) {
   --neutral-1-hsl:     0 calc(var(--saturation-factor)*  0) 99;
   --neutral-2-hsl:     0 calc(var(--saturation-factor)*  0) 98;
