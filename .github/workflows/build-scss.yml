@@ -1,0 +1,29 @@
+name: Build SCSS
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Install Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '16'
+
+    - name: Install dependencies
+      run: npm install -g sass
+
+    - name: Compile SCSS
+      run: sass theme.scss:theme.css
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v4
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist/
