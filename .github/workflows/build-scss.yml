@@ -14,6 +14,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+
     - name: Install Node.js
       uses: actions/setup-node@v4
       with:
@@ -24,6 +25,9 @@ jobs:
 
     - name: Compile SCSS
       run: sass theme.scss:./dist/theme.css
+
+    - name: Debug SCSS Output
+      run: ls -R ./dist
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
