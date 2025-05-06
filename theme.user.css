@@ -24,7 +24,6 @@
     --bg-overlay-floating: inherit;
   }
   :root:not(.custom-theme-background) {
-    --neutral-1-hsl: 0 calc(var(--saturation-factor) * 0) 100;
     --neutral-1-hsl: 243 calc(var(--saturation-factor)* 40) 100;
     --neutral-2-hsl: 243 calc(var(--saturation-factor)* 40) 98.636;
     --neutral-3-hsl: 243 calc(var(--saturation-factor)* 40) 97.272;
