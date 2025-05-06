@@ -33,11 +33,11 @@ jobs:
       run: sass theme.scss:./dist/theme.css
 
     - name: Create font directory
-      run: mkdir -p ./dist/font
+      run: mkdir -p ./dist/fonts
 
     - name: Copy fonts
       run: |
-        cp ./fonts/*.css ./dist/font
+        cp ./fonts/*.css ./dist/fonts
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
