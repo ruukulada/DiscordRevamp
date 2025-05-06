@@ -1,8 +1,23 @@
-Colors + Layout:
+![](https://placehold.co/50x50/9e9cd4/9e9cd4.png)
+![](https://placehold.co/50x50/4944a0/4944a0.png)
+![](https://placehold.co/50x50/2b295f/2b295f.png)
+![](https://placehold.co/50x50/171633/171633.png)
+
+Colors + Layout
 ```
 https://ruukulada.github.io/DiscordRevamp/theme.css
 ```
 
-![Screenshot](/screenshot.png?raw=true "Screenshot")
+
+<sub>Colors</sub>
+```
+https://ruukulada.github.io/DiscordRevamp/colors.css
+```
+<sub>Layout</sub>
+```
+https://ruukulada.github.io/DiscordRevamp/layout.css
+```
 
 <sup>Maintained by RuukuLada</sup>
+
+
