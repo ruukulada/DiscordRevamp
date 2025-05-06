@@ -1,7 +1,6 @@
 @import "components/nitro-no-gradient";
 
 :root:not(.custom-theme-background) {
-  --neutral-1-hsl: 0 calc(var(--saturation-factor) * 0) 100;
   @for $i from 1 through 49 {
     --neutral-#{$i}-hsl: 243 calc(var(--saturation-factor)* 40) #{100 - ($i - 1) * 1.364};
   }
