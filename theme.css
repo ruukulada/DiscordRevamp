@@ -3,8 +3,6 @@
  * @description A revamped theme inspired by the Discord promotional materials
  * @author ruukulada
  */
-@import url("https://ruukulada.github.io/DiscordRevamp/styles/components/circular-servers.css");
-@import url("https://ruukulada.github.io/DiscordRevamp/styles/components/text-clarity.css");
 .custom-theme-background {
   --bg-overlay-1: inherit;
   --bg-overlay-2: inherit;
@@ -148,6 +146,30 @@
   --opacity-88-hsl: 243 calc(var(--saturation-factor)* 40) 60 ;
   --opacity-92-hsl: 243 calc(var(--saturation-factor)* 40) 60 ;
   --opacity-96-hsl: 243 calc(var(--saturation-factor)* 40) 60 ;
+}
+
+div[data-list-item-id=guildsnav___home] {
+  clip-path: circle(50%);
+}
+
+div[class^=icon_]:nth-child(-n+4),
+img[class^=icon__] {
+  border-radius: 50%;
+}
+
+ul[data-list-id=guildsnav] {
+  --radius-xs: 2147483647px;
+  --radius-sm: 2147483647px;
+  --radius-md: 2147483647px;
+  --radius-lg: 2147483647px;
+  --radius-xl: 2147483647px;
+  --radius-xxl: 2147483647px;
+  --radius-round: 2147483647px;
+}
+
+:root {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 /* hide groomer junk */
