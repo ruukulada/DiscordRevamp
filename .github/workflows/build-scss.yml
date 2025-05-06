@@ -23,14 +23,17 @@ jobs:
     - name: Install dependencies
       run: npm install -g sass
 
-    - name: Compile colors
+    - name: Compile colors.css
       run: sass styles/colors.scss:./dist/colors.css
 
-    - name: Compile layout
+    - name: Compile layout.css
       run: sass styles/layout.scss:./dist/layout.css
 
-    - name: Compile theme
+    - name: Compile theme.css
       run: sass theme.scss:./dist/theme.css
+
+    - name: Compile theme.user.css
+      run: sass theme.user.scss:./dist/theme.user.css
 
     - name: Create font directory
       run: mkdir -p ./dist/fonts
