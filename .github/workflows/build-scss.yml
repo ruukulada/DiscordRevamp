@@ -33,7 +33,7 @@ jobs:
       run: sass --no-source-map --style=compressed theme.scss:./dist/theme.css
 
     - name: Compile theme.user.css
-      run: sass --no-source-map theme.user.scss:./dist/theme.user.css
+      run: sass --no-source-map --style=compact theme.user.scss:./dist/theme.user.css
 
     - name: Create font directory
       run: mkdir -p ./dist/fonts
