@@ -2,7 +2,7 @@
 
 :root:not(.custom-theme-background) {
   @for $i from 1 through 49 {
-    --neutral-#{$i}-hsl: 243 calc(var(--saturation-factor)* 40) #{100 - ($i - 1) * 1.364};
+    --neutral-#{$i}-hsl: 243 calc(var(--saturation-factor)* 40) #{101.392 - ($i) * 1.392};
   }
   @for $i from 50 through 93 {
     --neutral-#{$i}-hsl: 243 calc(var(--saturation-factor)* 40) #{63.688 - ($i) * 0.611};
