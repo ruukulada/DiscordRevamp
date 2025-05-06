@@ -24,16 +24,16 @@ jobs:
       run: npm install -g sass
 
     - name: Compile colors.css
-      run: sass --style=compressed styles/colors.scss:./dist/colors.css
+      run: sass --no-source-map --style=compressed styles/colors.scss:./dist/colors.css
 
     - name: Compile layout.css
-      run: sass --style=compressed styles/layout.scss:./dist/layout.css
+      run: sass --no-source-map --style=compressed styles/layout.scss:./dist/layout.css
 
     - name: Compile theme.css
-      run: sass --style=compressed theme.scss:./dist/theme.css
+      run: sass --no-source-map --style=compressed theme.scss:./dist/theme.css
 
     - name: Compile theme.user.css
-      run: sass theme.user.scss:./dist/theme.user.css
+      run: sass --no-source-map --style=compressed theme.user.scss:./dist/theme.user.css
 
     - name: Create font directory
       run: mkdir -p ./dist/fonts
