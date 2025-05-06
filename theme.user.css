@@ -124,7 +124,7 @@
     --neutral-98-hsl:243 calc(var(--saturation-factor)*40) 1.993;
     --neutral-99-hsl:243 calc(var(--saturation-factor)*40) 1.013;
     --neutral-100-hsl:243 calc(var(--saturation-factor)*40) 0.033;
-    --opacity-1-hsl: 243 calc(var(--saturation-factor)*40) 60;
+    --opacity-1-hsl:243 calc(var(--saturation-factor)*40) 60;
     --opacity-4-hsl:243 calc(var(--saturation-factor)*40) 60;
     --opacity-8-hsl:243 calc(var(--saturation-factor)*40) 60;
     --opacity-12-hsl:243 calc(var(--saturation-factor)*40) 60;
