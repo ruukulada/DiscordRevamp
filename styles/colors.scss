@@ -5,19 +5,19 @@ $sat: 40;
 
 :root:not(.custom-theme-background) {
   @for $i from 1 through 49 {
-    --neutral-#{$i}-hsl: #{$hue} calc(var(--saturation-factor) * #{$sat}) #{101.392 - $i * 1.392};
+    --neutral-#{$i}-hsl:#{$hue} calc(var(--saturation-factor)*#{$sat}) #{101.392 - $i * 1.392};
   }
   @for $i from 50 through 93 {
-    --neutral-#{$i}-hsl: #{$hue} calc(var(--saturation-factor) * #{$sat}) #{ 63.688 - $i * 0.611};
+    --neutral-#{$i}-hsl:#{$hue} calc(var(--saturation-factor)*#{$sat}) #{ 63.688 - $i * 0.611};
   }
   @for $i from 94 through 100 {
-    --neutral-#{$i}-hsl: #{$hue} calc(var(--saturation-factor) * #{$sat}) #{ 98.033 - $i * 0.980};
+    --neutral-#{$i}-hsl:#{$hue} calc(var(--saturation-factor)*#{$sat}) #{ 98.033 - $i * 0.980};
   }
 
-  --opacity-1-hsl: #{$hue} calc(var(--saturation-factor) * #{$sat}) 60;
+  --opacity-1-hsl: #{$hue} calc(var(--saturation-factor)*#{$sat}) 60;
   @for $i from 4 through 96 {
     @if $i % 4 == 0 {
-      --opacity-#{$i}-hsl: #{$hue} calc(var(--saturation-factor) * #{$sat}) 60;
+      --opacity-#{$i}-hsl:#{$hue} calc(var(--saturation-factor)*#{$sat}) 60;
     }
   }
 }
