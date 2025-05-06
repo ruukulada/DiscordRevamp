@@ -12,5 +12,4 @@ https://ruukulada.github.io/DiscordRevamp/colors.css
 ```
 https://ruukulada.github.io/DiscordRevamp/layout.css
 ```
-
-<sup>Maintained by RuukuLada</sup>
+<p align="right"><sub>Maintained by RuukuLada</sub></p>
