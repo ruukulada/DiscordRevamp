@@ -4,8 +4,6 @@ Colors + Layout
 ```
 https://ruukulada.github.io/DiscordRevamp/theme.css
 ```
-
-
 <sub>Colors</sub>
 ```
 https://ruukulada.github.io/DiscordRevamp/colors.css
@@ -16,5 +14,3 @@ https://ruukulada.github.io/DiscordRevamp/layout.css
 ```
 
 <sup>Maintained by RuukuLada</sup>
-
-
