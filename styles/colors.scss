@@ -14,7 +14,7 @@ $sat: 40;
     --neutral-#{$i}-hsl:#{$hue} calc(var(--saturation-factor)*#{$sat}) #{ 98.033 - $i * 0.980};
   }
 
-  --opacity-1-hsl: #{$hue} calc(var(--saturation-factor)*#{$sat}) 60;
+  --opacity-1-hsl:#{$hue} calc(var(--saturation-factor)*#{$sat}) 60;
   @for $i from 4 through 96 {
     @if $i % 4 == 0 {
       --opacity-#{$i}-hsl:#{$hue} calc(var(--saturation-factor)*#{$sat}) 60;
