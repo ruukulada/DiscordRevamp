@@ -3,9 +3,25 @@
  * @description A revamped theme inspired by the Discord promotional materials
  * @author ruukulada
  */
-@import url("https://ruukulada.github.io/DiscordRevamp/styles/components/nitro-no-gradient.css");
 @import url("https://ruukulada.github.io/DiscordRevamp/styles/components/circular-servers.css");
 @import url("https://ruukulada.github.io/DiscordRevamp/styles/components/text-clarity.css");
+.custom-theme-background {
+  --bg-overlay-1: inherit;
+  --bg-overlay-2: inherit;
+  --bg-overlay-3: inherit;
+  --bg-overlay-4: inherit;
+  --bg-overlay-5: inherit;
+  --bg-overlay-6: inherit;
+  --bg-overlay-hover: inherit;
+  --bg-overlay-active: inherit;
+  --bg-overlay-selected: inherit;
+  --bg-overlay-chat: inherit;
+  --bg-overlay-home: inherit;
+  --bg-overlay-home-card: inherit;
+  --bg-overlay-app-frame: inherit;
+  --bg-overlay-floating: inherit;
+}
+
 :root:not(.custom-theme-background) {
   --neutral-1-hsl: 0 calc(var(--saturation-factor)* 0) 100 ;
   --neutral-2-hsl: 0 calc(var(--saturation-factor)* 0) 98.431 ;
