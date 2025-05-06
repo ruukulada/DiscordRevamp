@@ -1,7 +1,4 @@
-![](https://placehold.co/50x50/9e9cd4/9e9cd4.png)
-![](https://placehold.co/50x50/4944a0/4944a0.png)
-![](https://placehold.co/50x50/2b295f/2b295f.png)
-![](https://placehold.co/50x50/171633/171633.png)
+<img src="https://placehold.co/50x50/9e9cd4/9e9cd4.png" /><img src="https://placehold.co/50x50/4944a0/4944a0.png" /><img src="https://placehold.co/50x50/2b295f/2b295f.png" /><img src="https://placehold.co/50x50/171633/171633.png" />
 
 Colors + Layout
 ```
