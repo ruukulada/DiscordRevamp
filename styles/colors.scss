@@ -103,7 +103,9 @@
   --neutral-100-hsl:   0 calc(var(--saturation-factor)* 40)   0     ;
 
   --opacity-1-hsl:   243 calc(var(--saturation-factor)* 40) 60;
-  @for $i from 4 through 96 by 4 {
-    --opacity-#{$i}-hsl: 243 calc(var(--saturation-factor) * 40) 60;
+  @for $i from 4 through 96 {
+    @if $i % 4 == 0 {
+      --opacity-#{$i}-hsl: 243 calc(var(--saturation-factor) * 40) 60;
+    }
   }
 }
