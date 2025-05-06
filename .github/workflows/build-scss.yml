@@ -15,24 +15,25 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Install Node.js
+    - name: Install node
       uses: actions/setup-node@v4
       with:
-        node-version: '16'
+        node-version: '18'
 
     - name: Install dependencies
       run: npm install -g sass
 
-    - name: Compile SCSS
-      run: sass theme.scss:./dist/theme.css
+    - name: Compile colors
+      run: sass styles/colors.scss:./dist/colors.css
 
-    - name: Debug SCSS Output
-      run: ls -R ./dist
+    - name: Compile layout
+      run: sass styles/layout.scss:./dist/layout.css
+
+    - name: Compile theme
+      run: sass theme.scss:./dist/theme.css
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./dist
-        exclude_assets: ""
-        allow_empty_commit: true
