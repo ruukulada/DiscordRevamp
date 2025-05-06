@@ -1,4 +1,4 @@
-<img src="https://placehold.co/50x50/9e9cd4/9e9cd4.png"/><img src="https://placehold.co/50x50/4944a0/4944a0.png"/><img src="https://placehold.co/50x50/2b295f/2b295f.png"/><img src="https://placehold.co/50x50/171633/171633.png"/>
+<img src="https://placehold.co/50/9e9cd4/9e9cd4"/><img src="https://placehold.co/50/4944a0/4944a0"/><img src="https://placehold.co/50/2b295f/2b295f"/><img src="https://placehold.co/50/171633/171633"/>
 
 Colors + Layout
 ```
@@ -14,7 +14,6 @@ https://ruukulada.github.io/DiscordRevamp/layout.css
 ```
 <p align="right">
 <sup><sub>Maintained by RuukuLada</sub></sup>
-</p>
-<p align="right">
-<img src="https://placehold.co/14x14/171633/171633.png"/><img src="https://placehold.co/14x14/2b295f/2b295f.png"/><img src="https://placehold.co/14x14/4944a0/4944a0.png"/><img src="https://placehold.co/14x14/9e9cd4/9e9cd4.png"/>
+</p><p align="right">
+<img src="https://placehold.co/14/171633/171633"/><img src="https://placehold.co/14/2b295f/2b295f"/><img src="https://placehold.co/14/4944a0/4944a0"/><img src="https://placehold.co/14/9e9cd4/9e9cd4"/>
 </p>
