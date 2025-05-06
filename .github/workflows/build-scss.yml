@@ -15,6 +15,10 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Copy fonts
+      run: |
+        cp ./fonts/*.css ./dist/fonts
+
     - name: Install node
       uses: actions/setup-node@v4
       with:
