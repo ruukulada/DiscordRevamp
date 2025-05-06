@@ -12,6 +12,14 @@ https://ruukulada.github.io/DiscordRevamp/colors.css
 ```
 https://ruukulada.github.io/DiscordRevamp/layout.css
 ```
+<sub>set your own hue + sat</sub>
+```
+:root {
+  --h: 243; /* default hue */
+  --s: 37;  /* default sat */
+}
+```
+
 <p align="right">
   <sub><sub>Maintained by RuukuLada</sub></sub>
 </p><p align="right">
