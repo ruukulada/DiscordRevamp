@@ -1,4 +1,4 @@
-@use "components/nitro-no-gradient";
+@import "components/nitro-no-gradient";
 
 :root:not(.custom-theme-background) {
   --neutral-1-hsl:     0 calc(var(--saturation-factor)*  0) 100     ;
