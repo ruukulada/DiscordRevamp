@@ -15,10 +15,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
-    - name: Copy fonts
-      run: |
-        cp ./fonts/*.css ./dist/fonts
-
     - name: Install node
       uses: actions/setup-node@v4
       with:
@@ -35,6 +31,10 @@ jobs:
 
     - name: Compile theme
       run: sass theme.scss:./dist/theme.css
+
+    - name: Copy fonts
+      run: |
+        cp ./fonts/*.css ./dist/font
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v4
