@@ -32,6 +32,9 @@ jobs:
     - name: Compile theme
       run: sass theme.scss:./dist/theme.css
 
+    - name: Create font directory
+      run: mkdir -p ./dist/font
+
     - name: Copy fonts
       run: |
         cp ./fonts/*.css ./dist/font
