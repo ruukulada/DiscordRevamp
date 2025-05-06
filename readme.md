@@ -12,4 +12,4 @@ https://ruukulada.github.io/DiscordRevamp/colors.css
 ```
 https://ruukulada.github.io/DiscordRevamp/layout.css
 ```
-<p align="right"><sub>Maintained by RuukuLada</sub></p>
+<p align="right"><img src="https://placehold.co/14x14/9e9cd4/9e9cd4.png" /><img src="https://placehold.co/14x14/4944a0/4944a0.png" /><img src="https://placehold.co/14x14/2b295f/2b295f.png" /><img src="https://placehold.co/14x14/171633/171633.png" /><sup><sub>Maintained by RuukuLada</sub></sup></p>
