@@ -24,10 +24,10 @@ jobs:
       run: npm install -g sass
 
     - name: Compile colors-static.css
-      run: sass --no-source-map --style=compressed styles/colors-static.scss:./dist/colors-static.css
+      run: sass --no-source-map --style=compressed styles/colors-static.scss:./dist/colors.css
 
     - name: Compile colors-dynamic.css
-      run: sass --no-source-map --style=compressed styles/colors-dynamic.scss:./dist/colors-dynamic.css
+      run: sass --no-source-map --style=compressed styles/colors-dynamic.scss:./dist/custom-colors.css
 
     - name: Compile layout.css
       run: sass --no-source-map --style=compressed styles/layout.scss:./dist/layout.css
