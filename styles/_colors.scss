@@ -1,7 +1,7 @@
 @use "components/nitro-no-gradient";
 
 $s: 37;
-@mixin generate-neutral-hsl($h, $custom: false) {
+@mixin generate-palette($h, $custom: false) {
   :root:not(.custom-theme-background) {
     @for $i from 1 through 49 {
       @if $custom {
