@@ -1,6 +1,6 @@
 @import "components/nitro-no-gradient";
 
-@mixin generate-neutral-hsl($hue, $custom: false) {
+@mixin generate-palette($hue, $custom: false) {
   :root:not(.custom-theme-background) {
     @for $i from 1 through 49 {
       --neutral-#{$i}-hsl: #{ $custom ? "var(--h)" : $hue } calc(var(--saturation-factor)*var(--s)) #{101.392 - $i * 1.392};
