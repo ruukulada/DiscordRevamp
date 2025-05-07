@@ -1,5 +1,5 @@
-@import "components/circular-servers";
-@import "components/text-clarity";
+@use "components/circular-servers";
+@use "components/text-clarity";
 
 /* hide groomer junk */
 a[href="https://support.discord.com"],
