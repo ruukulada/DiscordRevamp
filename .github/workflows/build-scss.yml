@@ -27,7 +27,7 @@ jobs:
       run: sass --no-source-map --style=compressed styles/colors.scss:./dist/colors.css
 
     - name: Compile custom-colors.css
-      run: sass --no-source-map --style=compressed styles/custom-colors.scss:./dist/custom-colors.css
+      run: sass --no-source-map --style=compressed styles/colors/_custom-colors.scss:./dist/custom-colors.css
 
     - name: Compile layout.css
       run: sass --no-source-map --style=compressed styles/layout.scss:./dist/layout.css
