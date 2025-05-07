@@ -166,10 +166,6 @@
     --radius-xxl: 2147483647px;
     --radius-round: 2147483647px;
   }
-  :root {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-  }
   /* hide groomer junk */
   a[href="https://support.discord.com"],
   button[aria-label=Apps],
@@ -198,5 +194,9 @@
   }
   ul[aria-label="Direct Messages"] > div[role=button] {
     pointer-events: none;
+  }
+  :root {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
   }
 }
