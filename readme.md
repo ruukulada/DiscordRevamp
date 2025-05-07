@@ -1,25 +1,17 @@
 <img src="https://placehold.co/50/9e9cd4/9e9cd4"/><img src="https://placehold.co/50/4944a0/4944a0"/><img src="https://placehold.co/50/2b295f/2b295f"/><img src="https://placehold.co/50/171633/171633"/>
 
-Colors + Layout
-```
+colors + layout
+```ruby
 https://ruukulada.github.io/DiscordRevamp/theme.css
 ```
-<sub>Colors</sub>
-```
+<sub>colors only</sub>
+```ruby
 https://ruukulada.github.io/DiscordRevamp/colors.css
 ```
-<sub>Layout</sub>
-```
+<sub>layout only</sub>
+```ruby
 https://ruukulada.github.io/DiscordRevamp/layout.css
 ```
-<sub>set your own hue + sat</sub>
-```
-:root {
-  --h: 243; /* default hue */
-  --s: 37;  /* default sat */
-}
-```
-
 <p align="right">
   <sub><sub>Maintained by RuukuLada</sub></sub>
 </p><p align="right">
