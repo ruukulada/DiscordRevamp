@@ -1,0 +1,9 @@
+@import "colors";
+
+$default-hue: 243;
+
+:root {
+  --h: #{$default-hue};
+}
+
+@include generate-palette($default-hue, true);
