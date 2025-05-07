@@ -23,8 +23,11 @@ jobs:
     - name: Install dependencies
       run: npm install -g sass
 
-    - name: Compile colors.css
-      run: sass --no-source-map --style=compressed styles/colors.scss:./dist/colors.css
+    - name: Compile colors-static.css
+      run: sass --no-source-map --style=compressed styles/colors-static.scss:./dist/colors-static.css
+
+    - name: Compile colors-dynamic.css
+      run: sass --no-source-map --style=compressed styles/colors-dynamic.scss:./dist/colors-dynamic.css
 
     - name: Compile layout.css
       run: sass --no-source-map --style=compressed styles/layout.scss:./dist/layout.css
