@@ -1,4 +1,4 @@
-@use "components/nitro-no-gradient";
+@use "../components/nitro-no-gradient";
 
 $s: 37;
 @mixin generate-palette($h, $custom: false) {
