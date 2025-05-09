@@ -1,13 +1,13 @@
 div[data-list-item-id="guildsnav___home"]
-  { clip-path: circle(50%); }
+  { clip-path:circle(50%); }
 div[class^="icon_"]:nth-child(-n+4),
 img[class^="icon__"]
-  { border-radius: 50%; }
+  { border-radius:50%; }
 ul[data-list-id="guildsnav"]
-  { --radius-xs:    2147483647px;
-    --radius-sm:    2147483647px;
-    --radius-md:    2147483647px;
-    --radius-lg:    2147483647px;
-    --radius-xl:    2147483647px;
-    --radius-xxl:   2147483647px;
-    --radius-round: 2147483647px; }
+  { --radius-xs:2147483647px;
+    --radius-sm:2147483647px;
+    --radius-md:2147483647px;
+    --radius-lg:2147483647px;
+    --radius-xl:2147483647px;
+    --radius-xxl:2147483647px;
+    --radius-round:2147483647px; }
