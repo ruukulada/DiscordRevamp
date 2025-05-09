@@ -158,13 +158,13 @@
     border-radius: 50%;
   }
   ul[data-list-id=guildsnav] {
-    --radius-xs: 2147483647px;
-    --radius-sm: 2147483647px;
-    --radius-md: 2147483647px;
-    --radius-lg: 2147483647px;
-    --radius-xl: 2147483647px;
-    --radius-xxl: 2147483647px;
-    --radius-round: 2147483647px;
+    --radius-xs:2147483647px;
+    --radius-sm:2147483647px;
+    --radius-md:2147483647px;
+    --radius-lg:2147483647px;
+    --radius-xl:2147483647px;
+    --radius-xxl:2147483647px;
+    --radius-round:2147483647px;
   }
   /* hide groomer junk */
   a[href="https://support.discord.com"],
