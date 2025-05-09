@@ -150,11 +150,10 @@
     --opacity-92-hsl:243 37 60;
     --opacity-96-hsl:243 37 60;
   }
-  div[data-list-item-id=guildsnav___home] {
+  div[data-list-item-id^=guildsnav___] {
     clip-path: circle(50%);
   }
-  div[class^=icon_]:nth-child(-n+4),
-  img[class^=icon__] {
+  div[class^=icon_]:nth-child(-n+4) {
     border-radius: 50%;
   }
   ul[data-list-id=guildsnav] {
