@@ -1,8 +1,10 @@
-div[data-list-item-id^="guildsnav___"]
-  { clip-path:circle(50%); }
 div[class^="icon_"]:nth-child(-n+4)
   { border-radius:50%; }
-ul[data-list-id="guildsnav"]
+div[class^="folderPreviewWrapper__"],
+div[class^="wrapper__"][role="treeitem"]
+  { clip-path:circle(50%); }
+div[class^="folderIcon__"],
+span[class^="folderGroupBackground__"]
   { --radius-xs:2147483647px;
     --radius-sm:2147483647px;
     --radius-md:2147483647px;
