@@ -16,10 +16,13 @@ svg[class="vc-pindms-collapse-icon"],
 ul[aria-label="Direct Messages"]>li:has(a[href="/shop"],a[href="/store"]),
 ul[data-list-id="guildsnav"]>div>div>div:has(
 div[data-list-item-id="guildsnav___create-join-button"],
-div[data-list-item-id="guildsnav___guild-discover-button"])
-  { display:none; }
+div[data-list-item-id="guildsnav___guild-discover-button"]) {
+  display:none;
+}
 div[aria-label="Close DM"],
-div[aria-label="Leave Group"]
-  { pointer-events:none; position:absolute; visibility:hidden; }
-ul[aria-label="Direct Messages"]>div[role="button"]
-  { pointer-events:none; }
+div[aria-label="Leave Group"] {
+  pointer-events:none; position:absolute; visibility:hidden;
+}
+ul[aria-label="Direct Messages"]>div[role="button"] {
+  pointer-events:none;
+}
