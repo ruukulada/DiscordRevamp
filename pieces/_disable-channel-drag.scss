@@ -1,4 +1,3 @@
-#channels>ul[aria-label="Channels"]>li,
-#channels>ul[aria-label="Channels"]>li>div>div>a {
-  -webkit-user-drag: none;
+a,li {
+  -webkit-user-drag:none;
 }
