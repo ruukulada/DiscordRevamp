@@ -167,8 +167,7 @@
     --radius-xxl:2147483647px;
     --radius-round:2147483647px;
   }
-  #channels > ul[aria-label=Channels] > li,
-  #channels > ul[aria-label=Channels] > li > div > div > a {
+  a, li {
     -webkit-user-drag: none;
   }
   /* hide groomer junk */
