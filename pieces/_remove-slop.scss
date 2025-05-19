@@ -2,7 +2,7 @@
 a[href="https://support.discord.com"],
 button[aria-label="Apps"],
 button[aria-label="Send a gift"],
-div[aria-label="Friends"]>div:nth-of-type(4),
+div[aria-label="Friends"]>div:nth-child(4),
 div[aria-label="Play Activities here"],
 div:has(>div[aria-label="Play Activities here"])+div,
 div:has(>div>svg>foreignObject>div[aria-label="Download Apps"]),
@@ -13,10 +13,10 @@ div[id="textarea-context-submit-button"],
 div[id="textarea-context-suggestions"],
 div[id="textarea-context-vcd-spellcheck-settings"],
 svg[class="vc-pindms-collapse-icon"],
-ul[aria-label="Direct Messages"]>li:where(
-  :nth-of-type(1),:nth-of-type(2)),
-ul[data-list-id="guildsnav"]>div>div>div:where(
-  :nth-last-of-type(2),:nth-last-of-type(3)) {
+ul[aria-label="Direct Messages"]>
+  li:nth-child(n+3):nth-child(-n+4),
+ul[data-list-id="guildsnav"]>div>div>
+  div:nth-child(n+5):nth-child(-n+6) {
   display:none;
 }
 div[aria-label="Close DM"],
