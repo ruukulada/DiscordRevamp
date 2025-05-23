@@ -23,6 +23,3 @@ div[aria-label="Close DM"],
 div[aria-label="Leave Group"] {
   pointer-events:none; position:absolute; visibility:hidden;
 }
-ul[aria-label="Direct Messages"]>div[role="button"] {
-  pointer-events:none;
-}
