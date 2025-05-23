@@ -157,7 +157,7 @@
   div[class^=wrapper__][role=treeitem] {
     clip-path: circle(50%);
   }
-  div[aria-label=Servers] > div > span,
+  div[data-drop-hovering=false] > span,
   div:has(> svg[xmlns="http://www.w3.org/2000/svg"]) {
     --radius-xs:2147483647px;
     --radius-sm:2147483647px;
