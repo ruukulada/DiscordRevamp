@@ -176,6 +176,7 @@
   button[aria-label="Send a gift"],
   div[aria-label=Friends] > div:nth-child(4),
   div[aria-label="Play Activities here"],
+  div[aria-labelledby=":rfv:"][role=dialog] > div > div:nth-child(2) > div:nth-child(2),
   div:has(> div[aria-label="Play Activities here"]) + div,
   div:has(> div > svg > foreignObject > div[aria-label="Download Apps"]),
   div[id=textarea-context] > div > div[role=separator],
