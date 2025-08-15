@@ -1,26 +1,25 @@
 /* hide groomer junk */
 a[href="https://support.discord.com"],
-button[aria-label="Apps"],
-div[aria-label="Friends"]>div:nth-child(4),
+button[aria-label=Apps],
+div[aria-label=Friends]>div:nth-child(4),
 div[aria-label="Play Activities here"],
 div[aria-label="Send a gift"],
-div[id="textarea-context"]>div>div[role="separator"],
-div[id="textarea-context-languages"],
-div[id="textarea-context-spellcheck"],
-div[id="textarea-context-submit-button"],
-div[id="textarea-context-suggestions"],
-div[id="textarea-context-vcd-spellcheck-settings"],
+div[id=textarea-context]>div>div[role=separator],
+div[id=textarea-context-languages],
+div[id=textarea-context-spellcheck],
+div[id=textarea-context-submit-button],
+div[id=textarea-context-suggestions],
+div[id=textarea-context-vcd-spellcheck-settings],
 div:has(>div[aria-label="Play Activities here"])+div,
 div:has(>div>svg>foreignObject>div[aria-label="Download Apps"]),
 div.root__175e2,
 h2.vc-pindms-section-container,
 ul[aria-label="Direct Messages"]>
   li:nth-child(n+3):nth-child(-n+4),
-ul[data-list-id="guildsnav"]>div>div>
+ul[data-list-id=guildsnav]>div>div>
   div:nth-child(n+5):nth-child(-n+6) {
   display:none;
 }
-div[aria-label="Close DM"],
-div[aria-label="Leave Group"] {
+div[aria-label="More Options"] {
   pointer-events:none; position:absolute; visibility:hidden;
 }
