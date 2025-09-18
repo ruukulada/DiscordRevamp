@@ -190,7 +190,8 @@
   ul[data-list-id=guildsnav] > div > div > div:nth-child(n+5):nth-child(-n+6) {
     display: none;
   }
-  div[aria-label="More Options"] {
+  div[aria-label="Close DM"],
+  div[aria-label="Leave Group"] {
     pointer-events: none;
     position: absolute;
     visibility: hidden;
