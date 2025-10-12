@@ -32,6 +32,9 @@ jobs:
     - name: Compile layout.css
       run: sass --no-source-map --style=compressed styles/_layout.scss:./dist/layout.css
 
+    - name: Compile layout.user.css
+      run: sass --no-source-map styles/_layout.user.scss:./dist/layout.user.css
+
     - name: Compile theme.css
       run: sass --no-source-map --style=compressed styles/_theme.scss:./dist/theme.css
 
