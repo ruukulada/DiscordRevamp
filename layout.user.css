@@ -44,7 +44,7 @@
   div:has(> div > svg > foreignObject > div[aria-label="Download Apps"]),
   div.root__175e2,
   h2.vc-pindms-section-container,
-  ul[aria-label="Direct Messages"] > :nth-child(n+3):nth-child(-n+5),
+  ul[aria-label="Direct Messages"] > :has(a[href="/store"], a[href="/shop"], a[href="/quest-home"]),
   ul[data-list-id=guildsnav] > div > div > div:nth-child(n+5):nth-child(-n+6) {
     display: none;
   }
