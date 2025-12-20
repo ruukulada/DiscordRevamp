@@ -7,22 +7,18 @@
 ==/UserStyle== */
 @-moz-document domain("discord.com") {
   /* https://github.com/ruukulada/DiscordRevamp */
-  div[class^=icon_]:nth-child(-n+4) {
+  ul[data-list-id=guildsnav] div {
+    --radius-xs: 2147483647px;
+    --radius-sm: 2147483647px;
+    --radius-md: 2147483647px;
+    --radius-lg: 2147483647px;
+    --radius-xl: 2147483647px;
+    --radius-xxl: 2147483647px;
+    --radius-round: 2147483647px;
+  }
+  ul[data-list-id=guildsnav] foreignObject[mask^="url(#"],
+  ul[data-list-id=guildsnav] div[class*=-folderPreview]:nth-child(-n+4) {
     border-radius: 50%;
-  }
-  div[class^=folderPreviewWrapper__],
-  div[class^=wrapper__][role=treeitem] {
-    clip-path: circle(50%);
-  }
-  div[data-drop-hovering=false] > span:first-child,
-  div:has(> svg[xmlns="http://www.w3.org/2000/svg"]) {
-    --radius-xs:2147483647px;
-    --radius-sm:2147483647px;
-    --radius-md:2147483647px;
-    --radius-lg:2147483647px;
-    --radius-xl:2147483647px;
-    --radius-xxl:2147483647px;
-    --radius-round:2147483647px;
   }
   a, li {
     -webkit-user-drag: none;
