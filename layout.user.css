@@ -35,6 +35,7 @@
   div[id=textarea-context-submit-button],
   div[id=textarea-context-suggestions],
   div[id=textarea-context-vcd-spellcheck-settings],
+  div:has(> div > div[class$=-rewardTileWithInstructions]),
   div:has(> div > div > div > button[aria-label="Start An Activity"]),
   div:has(> div > div > div > button[aria-label="Start An Activity"]) + div,
   div:has(> div > svg > foreignObject > div[aria-label="Download Apps"]),
