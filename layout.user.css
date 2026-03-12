@@ -31,7 +31,7 @@
   div[aria-label="Send a gift"],
   div[class$=-upsellRibbonContainer],
   div:has(> div > div[data-text-variant="text-xxs/medium"]),
-  div[id=online-tab] + div,
+  main[aria-label=Friends] > div > div + div,
   div[id=textarea-context] > div > div[role=separator],
   div[id=textarea-context-languages],
   div[id=textarea-context-spellcheck],
