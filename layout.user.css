@@ -38,6 +38,7 @@
   div[id=textarea-context-submit-button],
   div[id=textarea-context-suggestions],
   div[id=textarea-context-vcd-spellcheck-settings],
+  div:has(> div > div[data-text-variant="text-xxs/medium"]),
   div:has(> div > div > div > button[aria-label="Start An Activity"]),
   div:has(> div > div > div > button[aria-label="Start An Activity"]) + div,
   div:has(> div > div > div > div > div > div > div > img[src^="https://cdn.discordapp.com/quests"]),
