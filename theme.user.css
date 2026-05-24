@@ -174,14 +174,12 @@
   div[aria-label="Give a Gift"],
   div[aria-label="Last Meadow Online"],
   div[aria-label="Send a gift"],
-  div[class$=-upsellRibbonContainer],
   div[id=textarea-context] > div > div[role=separator],
   div[id=textarea-context-languages],
   div[id=textarea-context-spellcheck],
   div[id=textarea-context-submit-button],
   div[id=textarea-context-suggestions],
   div[id=textarea-context-vcd-spellcheck-settings],
-  div[style="height: 70px;"],
   div:has(> div > div > div > button[aria-label="Start An Activity"]),
   div:has(> div > div > div > button[aria-label="Start An Activity"]) + div,
   div:has(> div > div > div > div > div > div > div > img[src^="https://cdn.discordapp.com/quests"]),
@@ -189,6 +187,9 @@
   h2.vc-pindms-section-container,
   ul[aria-label="Direct Messages"] > :has(a[href="/store"], a[href="/shop"], a[href="/quest-home"]),
   ul[data-list-id=guildsnav] > div > div > div:nth-child(n+5):nth-child(-n+6),
+  div:has(> div[class*=rewardTileWithInstructions__]),
+  div[class$=-upsellRibbonContainer],
+  div[style="height: 70px;"],
   video:has(source[type="video/mp4"]) {
     display: none;
   }
