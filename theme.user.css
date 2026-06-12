@@ -182,7 +182,7 @@
   div[id=textarea-context-vcd-spellcheck-settings],
   div:has(> div > div > div > button[aria-label="Start An Activity"]),
   div:has(> div > div > div > button[aria-label="Start An Activity"]) + div,
-  div:has(> div > div > div > div > div > div > div > img[src^="https://cdn.discordapp.com/quests"]),
+  div:has(> div > div > div > div > div > img[src^="https://cdn.discordapp.com/quests"]),
   div:has(> div > svg > foreignObject > div[aria-label="Download Apps"]),
   h2.vc-pindms-section-container,
   ul[aria-label="Direct Messages"] > :has(a[href="/store"], a[href="/shop"], a[href="/quest-home"]),
