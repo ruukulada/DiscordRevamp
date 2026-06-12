@@ -44,7 +44,7 @@
   ul[aria-label="Direct Messages"] > :has(a[href="/store"], a[href="/shop"], a[href="/quest-home"]),
   ul[data-list-id=guildsnav] > div > div > div:nth-child(n+5):nth-child(-n+6),
   div:has(> div[class*=rewardTileWithInstructions__]),
-  div:has(> div > div > div > div > div > img[src^="https://cdn.discordapp.com/quests"]),
+  div:has(> img[src^="https://cdn.discordapp.com/quests"]),
   div[class$=-upsellRibbonContainer],
   div[style="height: 70px;"],
   video:has(source[type="video/mp4"]) {
