@@ -46,9 +46,12 @@
   div:has(> div[class*=rewardTileWithInstructions__]),
   div:has(> img[src^="https://cdn.discordapp.com/quests"]),
   div[class$=-upsellRibbonContainer],
-  div[style="height: 70px;"],
+  div[data-testid=quest-bar-container],
   video:has(source[type="video/mp4"]) {
     display: none;
+  }
+  section[aria-label="User status and settings"] {
+    overflow: hidden;
   }
   div[aria-label="Close DM"],
   div[aria-label="Leave Group"] {
