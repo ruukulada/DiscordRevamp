@@ -24,8 +24,13 @@
     -webkit-user-drag: none;
   }
   /* hide groomer junk */
+  a[href="/quest-home"],
+  a[href="/shop"],
+  a[href="/store"],
   a[href="https://support.discord.com"],
   button[aria-label=Apps],
+  button[aria-label="Open Soundboard"],
+  button[aria-label="Start An Activity"],
   div[aria-label=Friends] > div:nth-child(4),
   div[aria-label=Apps],
   div[aria-label="Give a Gift"],
@@ -38,11 +43,7 @@
   div[id=textarea-context-submit-button],
   div[id=textarea-context-suggestions],
   div[id=textarea-context-vcd-spellcheck-settings],
-  div:has(> div > div > div > button[aria-label="Start An Activity"]),
-  div:has(> div > div > div > button[aria-label="Start An Activity"]) + div,
-  div:has(> div > svg > foreignObject > div[aria-label="Download Apps"]),
   h2.vc-pindms-section-container,
-  ul[aria-label="Direct Messages"] > :has(a[href="/store"], a[href="/shop"], a[href="/quest-home"]),
   div:has(> div[class*=rewardTileWithInstructions__]),
   div:has(> img[src^="https://cdn.discordapp.com/quests"]),
   div[class$=-upsellRibbonContainer],
