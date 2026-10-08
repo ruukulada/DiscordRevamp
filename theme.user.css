@@ -188,10 +188,6 @@
   div[id=textarea-context-vc-chat-buttons],
   div[id=textarea-context-vcd-spellcheck-settings],
   h2.vc-pindms-section-container,
-  div:has(> div[class*=rewardTileWithInstructions__]),
-  div:has(> img[src^="https://cdn.discordapp.com/quests"]),
-  div[class$=-upsellRibbonContainer],
-  div[data-dialog=non-modal][role=dialog],
   div[data-testid=quest-bar-container] {
     display: none;
   }
